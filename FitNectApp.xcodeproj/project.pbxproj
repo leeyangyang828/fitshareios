@@ -1,0 +1,1397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B8295CEB042EFB8C099430B /* Pods_FitNectApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24766CAA39E56164F123F58B /* Pods_FitNectApp.framework */; };
+		CF1FCE071DD3B4550020E38B /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1FCE051DD3B4550020E38B /* NotificationViewController.m */; };
+		CF1FCE081DD3B4550020E38B /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF1FCE061DD3B4550020E38B /* NotificationViewController.xib */; };
+		CF22BC991DD28D70008A4D29 /* AddEditWorkOutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22BC981DD28D70008A4D29 /* AddEditWorkOutsViewController.xib */; };
+		CF22BC9D1DD294B1008A4D29 /* RepsEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22BC9B1DD294B1008A4D29 /* RepsEditCell.m */; };
+		CF22BC9E1DD294B1008A4D29 /* RepsEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22BC9C1DD294B1008A4D29 /* RepsEditCell.xib */; };
+		CF22BCA31DD33E67008A4D29 /* RepsAndCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22BCA11DD33E67008A4D29 /* RepsAndCommentViewController.m */; };
+		CF22BCA41DD33E67008A4D29 /* RepsAndCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22BCA21DD33E67008A4D29 /* RepsAndCommentViewController.xib */; };
+		CF2568F31DC95BDE00E92B49 /* SKSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2568EE1DC95BDD00E92B49 /* SKSTableView.m */; };
+		CF2568F41DC95BDE00E92B49 /* SKSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2568F01DC95BDE00E92B49 /* SKSTableViewCell.m */; };
+		CF2568F51DC95BDE00E92B49 /* SKSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2568F21DC95BDE00E92B49 /* SKSTableViewCellIndicator.m */; };
+		CF2BE5031DC9762300A8F8F2 /* RepsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BE5011DC9762300A8F8F2 /* RepsCell.m */; };
+		CF2BE5041DC9762300A8F8F2 /* RepsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2BE5021DC9762300A8F8F2 /* RepsCell.xib */; };
+		CF2DDC161E48905F007F5E86 /* JCNotificationBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC001E48905F007F5E86 /* JCNotificationBanner.m */; };
+		CF2DDC171E48905F007F5E86 /* JCNotificationBannerPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC031E48905F007F5E86 /* JCNotificationBannerPresenter.m */; };
+		CF2DDC181E48905F007F5E86 /* JCNotificationBannerPresenterIOS7Style.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC051E48905F007F5E86 /* JCNotificationBannerPresenterIOS7Style.m */; };
+		CF2DDC191E48905F007F5E86 /* JCNotificationBannerPresenterIOSStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC071E48905F007F5E86 /* JCNotificationBannerPresenterIOSStyle.m */; };
+		CF2DDC1A1E48905F007F5E86 /* JCNotificationBannerPresenterSmokeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC091E48905F007F5E86 /* JCNotificationBannerPresenterSmokeStyle.m */; };
+		CF2DDC1B1E48905F007F5E86 /* JCNotificationBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC0B1E48905F007F5E86 /* JCNotificationBannerView.m */; };
+		CF2DDC1C1E48905F007F5E86 /* JCNotificationBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC0D1E48905F007F5E86 /* JCNotificationBannerViewController.m */; };
+		CF2DDC1D1E48905F007F5E86 /* JCNotificationBannerViewIOS7Style.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC0F1E48905F007F5E86 /* JCNotificationBannerViewIOS7Style.m */; };
+		CF2DDC1E1E48905F007F5E86 /* JCNotificationBannerViewIOSStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC111E48905F007F5E86 /* JCNotificationBannerViewIOSStyle.m */; };
+		CF2DDC1F1E48905F007F5E86 /* JCNotificationBannerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC131E48905F007F5E86 /* JCNotificationBannerWindow.m */; };
+		CF2DDC201E48905F007F5E86 /* JCNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DDC151E48905F007F5E86 /* JCNotificationCenter.m */; };
+		CF35E47E1E147FA7000E2B17 /* lbl_like_find.png in Resources */ = {isa = PBXBuildFile; fileRef = CF35E47D1E147FA7000E2B17 /* lbl_like_find.png */; };
+		CF40903A1E152A87002E4ED0 /* image0.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4090391E152A87002E4ED0 /* image0.png */; };
+		CF40903F1E157362002E4ED0 /* MyWorkoutsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40903D1E157362002E4ED0 /* MyWorkoutsListViewController.m */; };
+		CF4090401E157362002E4ED0 /* MyWorkoutsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF40903E1E157362002E4ED0 /* MyWorkoutsListViewController.xib */; };
+		CF499D6A1D6BC3E90081F9A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499D691D6BC3E90081F9A1 /* main.m */; };
+		CF499D6D1D6BC3E90081F9A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499D6C1D6BC3E90081F9A1 /* AppDelegate.m */; };
+		CF499D761D6BC3E90081F9A1 /* FitNectApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF499D741D6BC3E90081F9A1 /* FitNectApp.xcdatamodeld */; };
+		CF499D781D6BC3E90081F9A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF499D771D6BC3E90081F9A1 /* Assets.xcassets */; };
+		CF499D831D6BC4340081F9A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499D821D6BC4340081F9A1 /* Default-568h@2x.png */; };
+		CF499D8C1D6BC65F0081F9A1 /* floor.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499D891D6BC65F0081F9A1 /* floor.png */; };
+		CF499D8D1D6BC65F0081F9A1 /* gym.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499D8A1D6BC65F0081F9A1 /* gym.png */; };
+		CF499D8E1D6BC65F0081F9A1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499D8B1D6BC65F0081F9A1 /* logo.png */; };
+		CF499D961D6BC6660081F9A1 /* gym_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499D8F1D6BC6660081F9A1 /* gym_icon.png */; };
+		CF499D981D6BC6660081F9A1 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499D911D6BC6660081F9A1 /* home.png */; };
+		CF499D9A1D6BC6660081F9A1 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499D931D6BC6660081F9A1 /* me.png */; };
+		CF499D9B1D6BC6660081F9A1 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499D941D6BC6660081F9A1 /* menu.png */; };
+		CF499D9E1D6BC66D0081F9A1 /* LoginFieldBg.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499D9D1D6BC66D0081F9A1 /* LoginFieldBg.png */; };
+		CF499DA71D6BC6740081F9A1 /* abc_ic_ab_back_mtrl_am_alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499D9F1D6BC6740081F9A1 /* abc_ic_ab_back_mtrl_am_alpha.png */; };
+		CF499DA81D6BC6740081F9A1 /* addblack.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499DA01D6BC6740081F9A1 /* addblack.png */; };
+		CF499DA91D6BC6740081F9A1 /* addwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499DA11D6BC6740081F9A1 /* addwhite.png */; };
+		CF499DAA1D6BC6740081F9A1 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499DA21D6BC6740081F9A1 /* close.png */; };
+		CF499DAB1D6BC6740081F9A1 /* fitlove.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499DA31D6BC6740081F9A1 /* fitlove.png */; };
+		CF499DAC1D6BC6740081F9A1 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499DA41D6BC6740081F9A1 /* note.png */; };
+		CF499DAD1D6BC6740081F9A1 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499DA51D6BC6740081F9A1 /* save.png */; };
+		CF499DAE1D6BC6740081F9A1 /* sharewhite.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499DA61D6BC6740081F9A1 /* sharewhite.png */; };
+		CF499DB61D6BC6DD0081F9A1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DB11D6BC6DD0081F9A1 /* LoginViewController.m */; };
+		CF499DB71D6BC6DD0081F9A1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DB21D6BC6DD0081F9A1 /* LoginViewController.xib */; };
+		CF499DB81D6BC6DD0081F9A1 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DB41D6BC6DD0081F9A1 /* RegisterViewController.m */; };
+		CF499DB91D6BC6DD0081F9A1 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DB51D6BC6DD0081F9A1 /* RegisterViewController.xib */; };
+		CF499DC01D6BC7EF0081F9A1 /* GlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DBF1D6BC7EF0081F9A1 /* GlobalData.m */; };
+		CF499DC31D6BC7F40081F9A1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DC21D6BC7F40081F9A1 /* MBProgressHUD.m */; };
+		CF499DCD1D6BC8460081F9A1 /* SelectGYMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DC81D6BC8460081F9A1 /* SelectGYMViewController.m */; };
+		CF499DCE1D6BC8460081F9A1 /* SelectGYMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DC91D6BC8460081F9A1 /* SelectGYMViewController.xib */; };
+		CF499DCF1D6BC8460081F9A1 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DCB1D6BC8460081F9A1 /* SettingViewController.m */; };
+		CF499DD01D6BC8460081F9A1 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DCC1D6BC8460081F9A1 /* SettingViewController.xib */; };
+		CF499DE61D6BC84E0081F9A1 /* AddEditWorkOutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DD21D6BC84E0081F9A1 /* AddEditWorkOutsViewController.m */; };
+		CF499DE81D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DD51D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.m */; };
+		CF499DE91D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DD61D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.xib */; };
+		CF499DEA1D6BC84E0081F9A1 /* PreviewWorkOutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DD81D6BC84E0081F9A1 /* PreviewWorkOutsViewController.m */; };
+		CF499DEB1D6BC84E0081F9A1 /* PreviewWorkOutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DD91D6BC84E0081F9A1 /* PreviewWorkOutsViewController.xib */; };
+		CF499DEC1D6BC84E0081F9A1 /* SelectExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DDB1D6BC84E0081F9A1 /* SelectExerciseViewController.m */; };
+		CF499DED1D6BC84E0081F9A1 /* SelectExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DDC1D6BC84E0081F9A1 /* SelectExerciseViewController.xib */; };
+		CF499DEE1D6BC84E0081F9A1 /* UserWorkoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DDE1D6BC84E0081F9A1 /* UserWorkoutsViewController.m */; };
+		CF499DEF1D6BC84E0081F9A1 /* UserWorkoutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DDF1D6BC84E0081F9A1 /* UserWorkoutsViewController.xib */; };
+		CF499DF01D6BC84E0081F9A1 /* WorkOutsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DE11D6BC84E0081F9A1 /* WorkOutsCell.m */; };
+		CF499DF11D6BC84E0081F9A1 /* WorkOutsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DE21D6BC84E0081F9A1 /* WorkOutsCell.xib */; };
+		CF499DF21D6BC84E0081F9A1 /* WorkOutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DE41D6BC84E0081F9A1 /* WorkOutsViewController.m */; };
+		CF499DF31D6BC84E0081F9A1 /* WorkOutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DE51D6BC84E0081F9A1 /* WorkOutsViewController.xib */; };
+		CF499E001D6BC85A0081F9A1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DF51D6BC85A0081F9A1 /* HomeViewController.m */; };
+		CF499E011D6BC85A0081F9A1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DF61D6BC85A0081F9A1 /* HomeViewController.xib */; };
+		CF499E021D6BC85A0081F9A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DF81D6BC85A0081F9A1 /* MainViewController.m */; };
+		CF499E031D6BC85A0081F9A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DF91D6BC85A0081F9A1 /* MainViewController.xib */; };
+		CF499E041D6BC85A0081F9A1 /* MyWorkOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499DFB1D6BC85A0081F9A1 /* MyWorkOutViewController.m */; };
+		CF499E051D6BC85A0081F9A1 /* MyWorkOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499DFC1D6BC85A0081F9A1 /* MyWorkOutViewController.xib */; };
+		CF499E0B1D6BC9320081F9A1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF499E0A1D6BC9320081F9A1 /* CFNetwork.framework */; };
+		CF499E0D1D6BC93F0081F9A1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF499E0C1D6BC93F0081F9A1 /* MobileCoreServices.framework */; };
+		CF499E0F1D6BC9470081F9A1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF499E0E1D6BC9470081F9A1 /* Social.framework */; };
+		CF499E111D6BC94E0081F9A1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF499E101D6BC94E0081F9A1 /* Accounts.framework */; };
+		CF499E131D6BC9560081F9A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF499E121D6BC9560081F9A1 /* CoreGraphics.framework */; };
+		CF499E151D6BC95E0081F9A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF499E141D6BC95E0081F9A1 /* UIKit.framework */; };
+		CF499E171D6BC9650081F9A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF499E161D6BC9650081F9A1 /* AVFoundation.framework */; };
+		CF499E191D6BC96F0081F9A1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF499E181D6BC96F0081F9A1 /* CoreFoundation.framework */; };
+		CF499E1B1D6BC9750081F9A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF499E1A1D6BC9750081F9A1 /* Foundation.framework */; };
+		CF499E1D1D6BCA310081F9A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF499E1C1D6BCA310081F9A1 /* GoogleService-Info.plist */; };
+		CF499E1F1D6BED220081F9A1 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499E1E1D6BED220081F9A1 /* Splash.png */; };
+		CF499E221D6C1A550081F9A1 /* createSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499E201D6C1A550081F9A1 /* createSelected.png */; };
+		CF499E231D6C1A550081F9A1 /* findSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CF499E211D6C1A550081F9A1 /* findSelected.png */; };
+		CF499E361D6C485E0081F9A1 /* abs_fw.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E251D6C485E0081F9A1 /* abs_fw.rtf */; };
+		CF499E371D6C485E0081F9A1 /* abs_mcn.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E261D6C485E0081F9A1 /* abs_mcn.rtf */; };
+		CF499E381D6C485E0081F9A1 /* all_exercises.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E271D6C485E0081F9A1 /* all_exercises.rtf */; };
+		CF499E391D6C485E0081F9A1 /* back_fw.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E281D6C485E0081F9A1 /* back_fw.rtf */; };
+		CF499E3A1D6C485E0081F9A1 /* back_mcn.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E291D6C485E0081F9A1 /* back_mcn.rtf */; };
+		CF499E3B1D6C485E0081F9A1 /* biceps_fw.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E2A1D6C485E0081F9A1 /* biceps_fw.rtf */; };
+		CF499E3C1D6C485E0081F9A1 /* biceps_mcn.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E2B1D6C485E0081F9A1 /* biceps_mcn.rtf */; };
+		CF499E3D1D6C485E0081F9A1 /* cardio_fw.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E2C1D6C485E0081F9A1 /* cardio_fw.rtf */; };
+		CF499E3E1D6C485E0081F9A1 /* cardio_mcn.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E2D1D6C485E0081F9A1 /* cardio_mcn.rtf */; };
+		CF499E3F1D6C485E0081F9A1 /* chest_fw.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E2E1D6C485E0081F9A1 /* chest_fw.rtf */; };
+		CF499E401D6C485E0081F9A1 /* chest_mcn.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E2F1D6C485E0081F9A1 /* chest_mcn.rtf */; };
+		CF499E411D6C485E0081F9A1 /* legs_fw.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E301D6C485E0081F9A1 /* legs_fw.rtf */; };
+		CF499E421D6C485E0081F9A1 /* legs_mcn.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E311D6C485E0081F9A1 /* legs_mcn.rtf */; };
+		CF499E431D6C485E0081F9A1 /* shoulders_fw.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E321D6C485E0081F9A1 /* shoulders_fw.rtf */; };
+		CF499E441D6C485E0081F9A1 /* shoulders_mcn.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E331D6C485E0081F9A1 /* shoulders_mcn.rtf */; };
+		CF499E451D6C485E0081F9A1 /* triceps_fw.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E341D6C485E0081F9A1 /* triceps_fw.rtf */; };
+		CF499E461D6C485E0081F9A1 /* triceps_mcn.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF499E351D6C485E0081F9A1 /* triceps_mcn.rtf */; };
+		CF499E511D6C68C40081F9A1 /* WorkoutsOfUsersCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499E4F1D6C68C40081F9A1 /* WorkoutsOfUsersCell.m */; };
+		CF499E521D6C68C40081F9A1 /* WorkoutsOfUsersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499E501D6C68C40081F9A1 /* WorkoutsOfUsersCell.xib */; };
+		CF499E571D6C8F580081F9A1 /* ExerciseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499E551D6C8F580081F9A1 /* ExerciseCell.m */; };
+		CF499E581D6C8F580081F9A1 /* ExerciseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499E561D6C8F580081F9A1 /* ExerciseCell.xib */; };
+		CF499E5C1D6CE2880081F9A1 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499E5A1D6CE2880081F9A1 /* ProfileViewController.m */; };
+		CF499E5D1D6CE2880081F9A1 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499E5B1D6CE2880081F9A1 /* ProfileViewController.xib */; };
+		CF499E621D6CF5C50081F9A1 /* BeginWorkoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499E601D6CF5C50081F9A1 /* BeginWorkoutsViewController.m */; };
+		CF499E631D6CF5C50081F9A1 /* BeginWorkoutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF499E611D6CF5C50081F9A1 /* BeginWorkoutsViewController.xib */; };
+		CF499E6E1D6D0C680081F9A1 /* Fitlove+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499E6B1D6D0C680081F9A1 /* Fitlove+CoreDataProperties.m */; };
+		CF499E6F1D6D0C680081F9A1 /* Fitlove.m in Sources */ = {isa = PBXBuildFile; fileRef = CF499E6D1D6D0C680081F9A1 /* Fitlove.m */; };
+		CF5C229C1D6D56F3008CA221 /* Workouts+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C22991D6D56F3008CA221 /* Workouts+CoreDataProperties.m */; };
+		CF5C229D1D6D56F3008CA221 /* Workouts.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C229B1D6D56F3008CA221 /* Workouts.m */; };
+		CF5C229F1D6E3004008CA221 /* add_personal_profile_photo_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CF5C229E1D6E3004008CA221 /* add_personal_profile_photo_bg.png */; };
+		CF5C22A81D6E32F9008CA221 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C22A31D6E32F9008CA221 /* UIImage+Alpha.m */; };
+		CF5C22A91D6E32F9008CA221 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C22A51D6E32F9008CA221 /* UIImage+Resize.m */; };
+		CF5C22AA1D6E32F9008CA221 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C22A71D6E32F9008CA221 /* UIImage+RoundedCorner.m */; };
+		CF609C881D808D6800BAD9FC /* login_facebook_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CF609C871D808D6800BAD9FC /* login_facebook_btn.png */; };
+		CF609C8D1D809EFF00BAD9FC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF609C8A1D809EFF00BAD9FC /* FBSDKCoreKit.framework */; };
+		CF609C8E1D809EFF00BAD9FC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF609C8B1D809EFF00BAD9FC /* FBSDKLoginKit.framework */; };
+		CF609C8F1D809EFF00BAD9FC /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF609C8C1D809EFF00BAD9FC /* FBSDKShareKit.framework */; };
+		CF62792E1DFF02CF00A2F35F /* OwnWorkoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF62792C1DFF02CF00A2F35F /* OwnWorkoutCell.m */; };
+		CF62792F1DFF02CF00A2F35F /* OwnWorkoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF62792D1DFF02CF00A2F35F /* OwnWorkoutCell.xib */; };
+		CF697B551E1680B600864D84 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF697B541E1680B600864D84 /* logo.png */; };
+		CF697B5B1E16827600864D84 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF697B581E16827600864D84 /* FLAnimatedImage.m */; };
+		CF697B5C1E16827600864D84 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF697B5A1E16827600864D84 /* FLAnimatedImageView.m */; };
+		CF697B5E1E16834500864D84 /* login_movie.gif in Resources */ = {isa = PBXBuildFile; fileRef = CF697B5D1E16834500864D84 /* login_movie.gif */; };
+		CF75A0871DFE3392007A3513 /* WorkOutHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF75A0851DFE3392007A3513 /* WorkOutHomeViewController.m */; };
+		CF75A0881DFE3392007A3513 /* WorkOutHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF75A0861DFE3392007A3513 /* WorkOutHomeViewController.xib */; };
+		CF75A08D1DFE37F5007A3513 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF75A0891DFE37F5007A3513 /* image1.png */; };
+		CF75A08E1DFE37F5007A3513 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF75A08A1DFE37F5007A3513 /* image2.png */; };
+		CF75A08F1DFE37F5007A3513 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF75A08B1DFE37F5007A3513 /* image3.png */; };
+		CF75A0901DFE37F5007A3513 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF75A08C1DFE37F5007A3513 /* image4.png */; };
+		CF75A0921DFE46D5007A3513 /* workout_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF75A0911DFE46D5007A3513 /* workout_logo.png */; };
+		CF75A0961DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF75A0941DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.m */; };
+		CF75A0971DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF75A0951DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.xib */; };
+		CF80C4C41DC92F9700948EA6 /* btn_workoutAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = CF80C4C31DC92F9700948EA6 /* btn_workoutAdd.png */; };
+		CF80C4C71DC935A000948EA6 /* check_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = CF80C4C51DC935A000948EA6 /* check_orange.png */; };
+		CF80C4C81DC935A000948EA6 /* uncheck_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = CF80C4C61DC935A000948EA6 /* uncheck_gray.png */; };
+		CFAD09E01D848CF700245078 /* fitlove_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAD09DF1D848CF700245078 /* fitlove_orange.png */; };
+		CFCCBFFB1DCC421A00B23CE4 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCCBFF91DCC421A00B23CE4 /* down.png */; };
+		CFCCBFFC1DCC421A00B23CE4 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCCBFFA1DCC421A00B23CE4 /* up.png */; };
+		CFF6853A1E4811AD0027079C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF685391E4811AD0027079C /* UserNotifications.framework */; };
+		CFF7133C1D6E96E9000F0F51 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF7132C1D6E96E9000F0F51 /* AFNetworkActivityIndicatorManager.m */; };
+		CFF7133D1D6E96E9000F0F51 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF7132E1D6E96E9000F0F51 /* UIActivityIndicatorView+AFNetworking.m */; };
+		CFF7133E1D6E96E9000F0F51 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713301D6E96E9000F0F51 /* UIAlertView+AFNetworking.m */; };
+		CFF7133F1D6E96E9000F0F51 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713321D6E96E9000F0F51 /* UIButton+AFNetworking.m */; };
+		CFF713401D6E96E9000F0F51 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713341D6E96E9000F0F51 /* UIImageView+AFNetworking.m */; };
+		CFF713411D6E96E9000F0F51 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713371D6E96E9000F0F51 /* UIProgressView+AFNetworking.m */; };
+		CFF713421D6E96E9000F0F51 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713391D6E96E9000F0F51 /* UIRefreshControl+AFNetworking.m */; };
+		CFF713431D6E96E9000F0F51 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF7133B1D6E96E9000F0F51 /* UIWebView+AFNetworking.m */; };
+		CFF713581D6E98AF000F0F51 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713461D6E98AF000F0F51 /* AFHTTPRequestOperation.m */; };
+		CFF713591D6E98AF000F0F51 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713481D6E98AF000F0F51 /* AFHTTPRequestOperationManager.m */; };
+		CFF7135A1D6E98AF000F0F51 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF7134A1D6E98AF000F0F51 /* AFHTTPSessionManager.m */; };
+		CFF7135B1D6E98AF000F0F51 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF7134D1D6E98AF000F0F51 /* AFNetworkReachabilityManager.m */; };
+		CFF7135C1D6E98AF000F0F51 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF7134F1D6E98AF000F0F51 /* AFSecurityPolicy.m */; };
+		CFF7135D1D6E98AF000F0F51 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713511D6E98AF000F0F51 /* AFURLConnectionOperation.m */; };
+		CFF7135E1D6E98AF000F0F51 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713531D6E98AF000F0F51 /* AFURLRequestSerialization.m */; };
+		CFF7135F1D6E98AF000F0F51 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713551D6E98AF000F0F51 /* AFURLResponseSerialization.m */; };
+		CFF713601D6E98AF000F0F51 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF713571D6E98AF000F0F51 /* AFURLSessionManager.m */; };
+		CFF713641D6EAEBF000F0F51 /* main_white.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF713621D6EAEBF000F0F51 /* main_white.png */; };
+		CFF713651D6EAEBF000F0F51 /* man_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF713631D6EAEBF000F0F51 /* man_blue.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19F2F377B05A2C22FAF85F3C /* Pods-FitNectApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitNectApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitNectApp/Pods-FitNectApp.release.xcconfig"; sourceTree = "<group>"; };
+		24766CAA39E56164F123F58B /* Pods_FitNectApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitNectApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82000D90B7655B31C52DD10 /* Pods-FitNectApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitNectApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitNectApp/Pods-FitNectApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CF1FCE041DD3B4550020E38B /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationViewController.h; path = Notification/NotificationViewController.h; sourceTree = "<group>"; };
+		CF1FCE051DD3B4550020E38B /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationViewController.m; path = Notification/NotificationViewController.m; sourceTree = "<group>"; };
+		CF1FCE061DD3B4550020E38B /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NotificationViewController.xib; path = Notification/NotificationViewController.xib; sourceTree = "<group>"; };
+		CF20A8661E48DD950045979C /* FitNectApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitNectApp.entitlements; sourceTree = "<group>"; };
+		CF22BC981DD28D70008A4D29 /* AddEditWorkOutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddEditWorkOutsViewController.xib; path = Workouts/AddEditWorkOutsViewController.xib; sourceTree = "<group>"; };
+		CF22BC9A1DD294B1008A4D29 /* RepsEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepsEditCell.h; path = Workouts/RepsEditCell.h; sourceTree = "<group>"; };
+		CF22BC9B1DD294B1008A4D29 /* RepsEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepsEditCell.m; path = Workouts/RepsEditCell.m; sourceTree = "<group>"; };
+		CF22BC9C1DD294B1008A4D29 /* RepsEditCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RepsEditCell.xib; path = Workouts/RepsEditCell.xib; sourceTree = "<group>"; };
+		CF22BCA01DD33E67008A4D29 /* RepsAndCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepsAndCommentViewController.h; path = Workouts/RepsAndCommentViewController.h; sourceTree = "<group>"; };
+		CF22BCA11DD33E67008A4D29 /* RepsAndCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepsAndCommentViewController.m; path = Workouts/RepsAndCommentViewController.m; sourceTree = "<group>"; };
+		CF22BCA21DD33E67008A4D29 /* RepsAndCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RepsAndCommentViewController.xib; path = Workouts/RepsAndCommentViewController.xib; sourceTree = "<group>"; };
+		CF2568ED1DC95BDD00E92B49 /* SKSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKSTableView.h; path = Classes/SKSTableView/SKSTableView.h; sourceTree = "<group>"; };
+		CF2568EE1DC95BDD00E92B49 /* SKSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKSTableView.m; path = Classes/SKSTableView/SKSTableView.m; sourceTree = "<group>"; };
+		CF2568EF1DC95BDD00E92B49 /* SKSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKSTableViewCell.h; path = Classes/SKSTableView/SKSTableViewCell.h; sourceTree = "<group>"; };
+		CF2568F01DC95BDE00E92B49 /* SKSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKSTableViewCell.m; path = Classes/SKSTableView/SKSTableViewCell.m; sourceTree = "<group>"; };
+		CF2568F11DC95BDE00E92B49 /* SKSTableViewCellIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKSTableViewCellIndicator.h; path = Classes/SKSTableView/SKSTableViewCellIndicator.h; sourceTree = "<group>"; };
+		CF2568F21DC95BDE00E92B49 /* SKSTableViewCellIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKSTableViewCellIndicator.m; path = Classes/SKSTableView/SKSTableViewCellIndicator.m; sourceTree = "<group>"; };
+		CF2BE5001DC9762300A8F8F2 /* RepsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepsCell.h; path = Workouts/RepsCell.h; sourceTree = "<group>"; };
+		CF2BE5011DC9762300A8F8F2 /* RepsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepsCell.m; path = Workouts/RepsCell.m; sourceTree = "<group>"; };
+		CF2BE5021DC9762300A8F8F2 /* RepsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RepsCell.xib; path = Workouts/RepsCell.xib; sourceTree = "<group>"; };
+		CF2DDBFF1E48905F007F5E86 /* JCNotificationBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBanner.h; path = Classes/PushBanner/JCNotificationBanner.h; sourceTree = "<group>"; };
+		CF2DDC001E48905F007F5E86 /* JCNotificationBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationBanner.m; path = Classes/PushBanner/JCNotificationBanner.m; sourceTree = "<group>"; };
+		CF2DDC011E48905F007F5E86 /* JCNotificationBannerPresenter_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBannerPresenter_Private.h; path = Classes/PushBanner/JCNotificationBannerPresenter_Private.h; sourceTree = "<group>"; };
+		CF2DDC021E48905F007F5E86 /* JCNotificationBannerPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBannerPresenter.h; path = Classes/PushBanner/JCNotificationBannerPresenter.h; sourceTree = "<group>"; };
+		CF2DDC031E48905F007F5E86 /* JCNotificationBannerPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationBannerPresenter.m; path = Classes/PushBanner/JCNotificationBannerPresenter.m; sourceTree = "<group>"; };
+		CF2DDC041E48905F007F5E86 /* JCNotificationBannerPresenterIOS7Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBannerPresenterIOS7Style.h; path = Classes/PushBanner/JCNotificationBannerPresenterIOS7Style.h; sourceTree = "<group>"; };
+		CF2DDC051E48905F007F5E86 /* JCNotificationBannerPresenterIOS7Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationBannerPresenterIOS7Style.m; path = Classes/PushBanner/JCNotificationBannerPresenterIOS7Style.m; sourceTree = "<group>"; };
+		CF2DDC061E48905F007F5E86 /* JCNotificationBannerPresenterIOSStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBannerPresenterIOSStyle.h; path = Classes/PushBanner/JCNotificationBannerPresenterIOSStyle.h; sourceTree = "<group>"; };
+		CF2DDC071E48905F007F5E86 /* JCNotificationBannerPresenterIOSStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationBannerPresenterIOSStyle.m; path = Classes/PushBanner/JCNotificationBannerPresenterIOSStyle.m; sourceTree = "<group>"; };
+		CF2DDC081E48905F007F5E86 /* JCNotificationBannerPresenterSmokeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBannerPresenterSmokeStyle.h; path = Classes/PushBanner/JCNotificationBannerPresenterSmokeStyle.h; sourceTree = "<group>"; };
+		CF2DDC091E48905F007F5E86 /* JCNotificationBannerPresenterSmokeStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationBannerPresenterSmokeStyle.m; path = Classes/PushBanner/JCNotificationBannerPresenterSmokeStyle.m; sourceTree = "<group>"; };
+		CF2DDC0A1E48905F007F5E86 /* JCNotificationBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBannerView.h; path = Classes/PushBanner/JCNotificationBannerView.h; sourceTree = "<group>"; };
+		CF2DDC0B1E48905F007F5E86 /* JCNotificationBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationBannerView.m; path = Classes/PushBanner/JCNotificationBannerView.m; sourceTree = "<group>"; };
+		CF2DDC0C1E48905F007F5E86 /* JCNotificationBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBannerViewController.h; path = Classes/PushBanner/JCNotificationBannerViewController.h; sourceTree = "<group>"; };
+		CF2DDC0D1E48905F007F5E86 /* JCNotificationBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationBannerViewController.m; path = Classes/PushBanner/JCNotificationBannerViewController.m; sourceTree = "<group>"; };
+		CF2DDC0E1E48905F007F5E86 /* JCNotificationBannerViewIOS7Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBannerViewIOS7Style.h; path = Classes/PushBanner/JCNotificationBannerViewIOS7Style.h; sourceTree = "<group>"; };
+		CF2DDC0F1E48905F007F5E86 /* JCNotificationBannerViewIOS7Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationBannerViewIOS7Style.m; path = Classes/PushBanner/JCNotificationBannerViewIOS7Style.m; sourceTree = "<group>"; };
+		CF2DDC101E48905F007F5E86 /* JCNotificationBannerViewIOSStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBannerViewIOSStyle.h; path = Classes/PushBanner/JCNotificationBannerViewIOSStyle.h; sourceTree = "<group>"; };
+		CF2DDC111E48905F007F5E86 /* JCNotificationBannerViewIOSStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationBannerViewIOSStyle.m; path = Classes/PushBanner/JCNotificationBannerViewIOSStyle.m; sourceTree = "<group>"; };
+		CF2DDC121E48905F007F5E86 /* JCNotificationBannerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationBannerWindow.h; path = Classes/PushBanner/JCNotificationBannerWindow.h; sourceTree = "<group>"; };
+		CF2DDC131E48905F007F5E86 /* JCNotificationBannerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationBannerWindow.m; path = Classes/PushBanner/JCNotificationBannerWindow.m; sourceTree = "<group>"; };
+		CF2DDC141E48905F007F5E86 /* JCNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationCenter.h; path = Classes/PushBanner/JCNotificationCenter.h; sourceTree = "<group>"; };
+		CF2DDC151E48905F007F5E86 /* JCNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationCenter.m; path = Classes/PushBanner/JCNotificationCenter.m; sourceTree = "<group>"; };
+		CF35E47D1E147FA7000E2B17 /* lbl_like_find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lbl_like_find.png; path = Resources/lbl_like_find.png; sourceTree = "<group>"; };
+		CF4090391E152A87002E4ED0 /* image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image0.png; path = Resources/MainView/image0.png; sourceTree = "<group>"; };
+		CF40903C1E157362002E4ED0 /* MyWorkoutsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyWorkoutsListViewController.h; path = Workouts/AddAndShow/MyWorkoutsListViewController.h; sourceTree = "<group>"; };
+		CF40903D1E157362002E4ED0 /* MyWorkoutsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyWorkoutsListViewController.m; path = Workouts/AddAndShow/MyWorkoutsListViewController.m; sourceTree = "<group>"; };
+		CF40903E1E157362002E4ED0 /* MyWorkoutsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyWorkoutsListViewController.xib; path = Workouts/AddAndShow/MyWorkoutsListViewController.xib; sourceTree = "<group>"; };
+		CF499D651D6BC3E90081F9A1 /* FitNectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitNectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF499D691D6BC3E90081F9A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF499D6B1D6BC3E90081F9A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF499D6C1D6BC3E90081F9A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF499D751D6BC3E90081F9A1 /* FitNectApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitNectApp.xcdatamodel; sourceTree = "<group>"; };
+		CF499D771D6BC3E90081F9A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF499D7C1D6BC3E90081F9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF499D821D6BC4340081F9A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF499D851D6BC49A0081F9A1 /* FitNectApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitNectApp-Prefix.pch"; sourceTree = "<group>"; };
+		CF499D891D6BC65F0081F9A1 /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = floor.png; path = Resources/floor.png; sourceTree = "<group>"; };
+		CF499D8A1D6BC65F0081F9A1 /* gym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gym.png; path = Resources/gym.png; sourceTree = "<group>"; };
+		CF499D8B1D6BC65F0081F9A1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resources/logo.png; sourceTree = "<group>"; };
+		CF499D8F1D6BC6660081F9A1 /* gym_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gym_icon.png; path = Resources/MainView/gym_icon.png; sourceTree = "<group>"; };
+		CF499D911D6BC6660081F9A1 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = Resources/MainView/home.png; sourceTree = "<group>"; };
+		CF499D931D6BC6660081F9A1 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = me.png; path = Resources/MainView/me.png; sourceTree = "<group>"; };
+		CF499D941D6BC6660081F9A1 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = Resources/MainView/menu.png; sourceTree = "<group>"; };
+		CF499D9D1D6BC66D0081F9A1 /* LoginFieldBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginFieldBg.png; path = Resources/RegisterLogin/LoginFieldBg.png; sourceTree = "<group>"; };
+		CF499D9F1D6BC6740081F9A1 /* abc_ic_ab_back_mtrl_am_alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = abc_ic_ab_back_mtrl_am_alpha.png; path = Resources/Setting/abc_ic_ab_back_mtrl_am_alpha.png; sourceTree = "<group>"; };
+		CF499DA01D6BC6740081F9A1 /* addblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addblack.png; path = Resources/Setting/addblack.png; sourceTree = "<group>"; };
+		CF499DA11D6BC6740081F9A1 /* addwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addwhite.png; path = Resources/Setting/addwhite.png; sourceTree = "<group>"; };
+		CF499DA21D6BC6740081F9A1 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = Resources/Setting/close.png; sourceTree = "<group>"; };
+		CF499DA31D6BC6740081F9A1 /* fitlove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fitlove.png; path = Resources/Setting/fitlove.png; sourceTree = "<group>"; };
+		CF499DA41D6BC6740081F9A1 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note.png; path = Resources/Setting/note.png; sourceTree = "<group>"; };
+		CF499DA51D6BC6740081F9A1 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = save.png; path = Resources/Setting/save.png; sourceTree = "<group>"; };
+		CF499DA61D6BC6740081F9A1 /* sharewhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sharewhite.png; path = Resources/Setting/sharewhite.png; sourceTree = "<group>"; };
+		CF499DB01D6BC6DD0081F9A1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = RegisterLogin/LoginViewController.h; sourceTree = "<group>"; };
+		CF499DB11D6BC6DD0081F9A1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = RegisterLogin/LoginViewController.m; sourceTree = "<group>"; };
+		CF499DB21D6BC6DD0081F9A1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = RegisterLogin/LoginViewController.xib; sourceTree = "<group>"; };
+		CF499DB31D6BC6DD0081F9A1 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = RegisterLogin/RegisterViewController.h; sourceTree = "<group>"; };
+		CF499DB41D6BC6DD0081F9A1 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = RegisterLogin/RegisterViewController.m; sourceTree = "<group>"; };
+		CF499DB51D6BC6DD0081F9A1 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = RegisterLogin/RegisterViewController.xib; sourceTree = "<group>"; };
+		CF499DBD1D6BC7EF0081F9A1 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = Classes/Global/Global.h; sourceTree = "<group>"; };
+		CF499DBE1D6BC7EF0081F9A1 /* GlobalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobalData.h; path = Classes/Global/GlobalData.h; sourceTree = "<group>"; };
+		CF499DBF1D6BC7EF0081F9A1 /* GlobalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GlobalData.m; path = Classes/Global/GlobalData.m; sourceTree = "<group>"; };
+		CF499DC11D6BC7F40081F9A1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Classes/MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		CF499DC21D6BC7F40081F9A1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Classes/MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		CF499DC71D6BC8460081F9A1 /* SelectGYMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectGYMViewController.h; path = Setting/SelectGYMViewController.h; sourceTree = "<group>"; };
+		CF499DC81D6BC8460081F9A1 /* SelectGYMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectGYMViewController.m; path = Setting/SelectGYMViewController.m; sourceTree = "<group>"; };
+		CF499DC91D6BC8460081F9A1 /* SelectGYMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectGYMViewController.xib; path = Setting/SelectGYMViewController.xib; sourceTree = "<group>"; };
+		CF499DCA1D6BC8460081F9A1 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = Setting/SettingViewController.h; sourceTree = "<group>"; };
+		CF499DCB1D6BC8460081F9A1 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = Setting/SettingViewController.m; sourceTree = "<group>"; };
+		CF499DCC1D6BC8460081F9A1 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingViewController.xib; path = Setting/SettingViewController.xib; sourceTree = "<group>"; };
+		CF499DD11D6BC84E0081F9A1 /* AddEditWorkOutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddEditWorkOutsViewController.h; path = Workouts/AddEditWorkOutsViewController.h; sourceTree = "<group>"; };
+		CF499DD21D6BC84E0081F9A1 /* AddEditWorkOutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddEditWorkOutsViewController.m; path = Workouts/AddEditWorkOutsViewController.m; sourceTree = "<group>"; };
+		CF499DD41D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OneWorkouksCurrentUserViewController.h; path = Workouts/OneWorkouksCurrentUserViewController.h; sourceTree = "<group>"; };
+		CF499DD51D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneWorkouksCurrentUserViewController.m; path = Workouts/OneWorkouksCurrentUserViewController.m; sourceTree = "<group>"; };
+		CF499DD61D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OneWorkouksCurrentUserViewController.xib; path = Workouts/OneWorkouksCurrentUserViewController.xib; sourceTree = "<group>"; };
+		CF499DD71D6BC84E0081F9A1 /* PreviewWorkOutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreviewWorkOutsViewController.h; path = Workouts/PreviewWorkOutsViewController.h; sourceTree = "<group>"; };
+		CF499DD81D6BC84E0081F9A1 /* PreviewWorkOutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreviewWorkOutsViewController.m; path = Workouts/PreviewWorkOutsViewController.m; sourceTree = "<group>"; };
+		CF499DD91D6BC84E0081F9A1 /* PreviewWorkOutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreviewWorkOutsViewController.xib; path = Workouts/PreviewWorkOutsViewController.xib; sourceTree = "<group>"; };
+		CF499DDA1D6BC84E0081F9A1 /* SelectExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectExerciseViewController.h; path = Workouts/SelectExerciseViewController.h; sourceTree = "<group>"; };
+		CF499DDB1D6BC84E0081F9A1 /* SelectExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectExerciseViewController.m; path = Workouts/SelectExerciseViewController.m; sourceTree = "<group>"; };
+		CF499DDC1D6BC84E0081F9A1 /* SelectExerciseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectExerciseViewController.xib; path = Workouts/SelectExerciseViewController.xib; sourceTree = "<group>"; };
+		CF499DDD1D6BC84E0081F9A1 /* UserWorkoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserWorkoutsViewController.h; path = Workouts/UserWorkoutsViewController.h; sourceTree = "<group>"; };
+		CF499DDE1D6BC84E0081F9A1 /* UserWorkoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserWorkoutsViewController.m; path = Workouts/UserWorkoutsViewController.m; sourceTree = "<group>"; };
+		CF499DDF1D6BC84E0081F9A1 /* UserWorkoutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserWorkoutsViewController.xib; path = Workouts/UserWorkoutsViewController.xib; sourceTree = "<group>"; };
+		CF499DE01D6BC84E0081F9A1 /* WorkOutsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkOutsCell.h; path = Workouts/WorkOutsCell.h; sourceTree = "<group>"; };
+		CF499DE11D6BC84E0081F9A1 /* WorkOutsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkOutsCell.m; path = Workouts/WorkOutsCell.m; sourceTree = "<group>"; };
+		CF499DE21D6BC84E0081F9A1 /* WorkOutsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WorkOutsCell.xib; path = Workouts/WorkOutsCell.xib; sourceTree = "<group>"; };
+		CF499DE31D6BC84E0081F9A1 /* WorkOutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkOutsViewController.h; path = Workouts/WorkOutsViewController.h; sourceTree = "<group>"; };
+		CF499DE41D6BC84E0081F9A1 /* WorkOutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkOutsViewController.m; path = Workouts/WorkOutsViewController.m; sourceTree = "<group>"; };
+		CF499DE51D6BC84E0081F9A1 /* WorkOutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WorkOutsViewController.xib; path = Workouts/WorkOutsViewController.xib; sourceTree = "<group>"; };
+		CF499DF41D6BC85A0081F9A1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = MainView/HomeViewController.h; sourceTree = "<group>"; };
+		CF499DF51D6BC85A0081F9A1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = MainView/HomeViewController.m; sourceTree = "<group>"; };
+		CF499DF61D6BC85A0081F9A1 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = MainView/HomeViewController.xib; sourceTree = "<group>"; };
+		CF499DF71D6BC85A0081F9A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = MainView/MainViewController.h; sourceTree = "<group>"; };
+		CF499DF81D6BC85A0081F9A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = MainView/MainViewController.m; sourceTree = "<group>"; };
+		CF499DF91D6BC85A0081F9A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = MainView/MainViewController.xib; sourceTree = "<group>"; };
+		CF499DFA1D6BC85A0081F9A1 /* MyWorkOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyWorkOutViewController.h; path = MainView/MyWorkOutViewController.h; sourceTree = "<group>"; };
+		CF499DFB1D6BC85A0081F9A1 /* MyWorkOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyWorkOutViewController.m; path = MainView/MyWorkOutViewController.m; sourceTree = "<group>"; };
+		CF499DFC1D6BC85A0081F9A1 /* MyWorkOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyWorkOutViewController.xib; path = MainView/MyWorkOutViewController.xib; sourceTree = "<group>"; };
+		CF499E0A1D6BC9320081F9A1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CF499E0C1D6BC93F0081F9A1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CF499E0E1D6BC9470081F9A1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CF499E101D6BC94E0081F9A1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CF499E121D6BC9560081F9A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF499E141D6BC95E0081F9A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF499E161D6BC9650081F9A1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF499E181D6BC96F0081F9A1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		CF499E1A1D6BC9750081F9A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF499E1C1D6BCA310081F9A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF499E1E1D6BED220081F9A1 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Splash.png; path = Resources/Splash.png; sourceTree = "<group>"; };
+		CF499E201D6C1A550081F9A1 /* createSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = createSelected.png; path = Resources/MainView/createSelected.png; sourceTree = "<group>"; };
+		CF499E211D6C1A550081F9A1 /* findSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = findSelected.png; path = Resources/MainView/findSelected.png; sourceTree = "<group>"; };
+		CF499E251D6C485E0081F9A1 /* abs_fw.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = abs_fw.rtf; path = Resources/raw/abs_fw.rtf; sourceTree = "<group>"; };
+		CF499E261D6C485E0081F9A1 /* abs_mcn.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = abs_mcn.rtf; path = Resources/raw/abs_mcn.rtf; sourceTree = "<group>"; };
+		CF499E271D6C485E0081F9A1 /* all_exercises.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = all_exercises.rtf; path = Resources/raw/all_exercises.rtf; sourceTree = "<group>"; };
+		CF499E281D6C485E0081F9A1 /* back_fw.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = back_fw.rtf; path = Resources/raw/back_fw.rtf; sourceTree = "<group>"; };
+		CF499E291D6C485E0081F9A1 /* back_mcn.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = back_mcn.rtf; path = Resources/raw/back_mcn.rtf; sourceTree = "<group>"; };
+		CF499E2A1D6C485E0081F9A1 /* biceps_fw.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = biceps_fw.rtf; path = Resources/raw/biceps_fw.rtf; sourceTree = "<group>"; };
+		CF499E2B1D6C485E0081F9A1 /* biceps_mcn.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = biceps_mcn.rtf; path = Resources/raw/biceps_mcn.rtf; sourceTree = "<group>"; };
+		CF499E2C1D6C485E0081F9A1 /* cardio_fw.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = cardio_fw.rtf; path = Resources/raw/cardio_fw.rtf; sourceTree = "<group>"; };
+		CF499E2D1D6C485E0081F9A1 /* cardio_mcn.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = cardio_mcn.rtf; path = Resources/raw/cardio_mcn.rtf; sourceTree = "<group>"; };
+		CF499E2E1D6C485E0081F9A1 /* chest_fw.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = chest_fw.rtf; path = Resources/raw/chest_fw.rtf; sourceTree = "<group>"; };
+		CF499E2F1D6C485E0081F9A1 /* chest_mcn.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = chest_mcn.rtf; path = Resources/raw/chest_mcn.rtf; sourceTree = "<group>"; };
+		CF499E301D6C485E0081F9A1 /* legs_fw.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = legs_fw.rtf; path = Resources/raw/legs_fw.rtf; sourceTree = "<group>"; };
+		CF499E311D6C485E0081F9A1 /* legs_mcn.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = legs_mcn.rtf; path = Resources/raw/legs_mcn.rtf; sourceTree = "<group>"; };
+		CF499E321D6C485E0081F9A1 /* shoulders_fw.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = shoulders_fw.rtf; path = Resources/raw/shoulders_fw.rtf; sourceTree = "<group>"; };
+		CF499E331D6C485E0081F9A1 /* shoulders_mcn.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = shoulders_mcn.rtf; path = Resources/raw/shoulders_mcn.rtf; sourceTree = "<group>"; };
+		CF499E341D6C485E0081F9A1 /* triceps_fw.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = triceps_fw.rtf; path = Resources/raw/triceps_fw.rtf; sourceTree = "<group>"; };
+		CF499E351D6C485E0081F9A1 /* triceps_mcn.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = triceps_mcn.rtf; path = Resources/raw/triceps_mcn.rtf; sourceTree = "<group>"; };
+		CF499E4E1D6C68C40081F9A1 /* WorkoutsOfUsersCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkoutsOfUsersCell.h; path = MainView/WorkoutsOfUsersCell.h; sourceTree = "<group>"; };
+		CF499E4F1D6C68C40081F9A1 /* WorkoutsOfUsersCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkoutsOfUsersCell.m; path = MainView/WorkoutsOfUsersCell.m; sourceTree = "<group>"; };
+		CF499E501D6C68C40081F9A1 /* WorkoutsOfUsersCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WorkoutsOfUsersCell.xib; path = MainView/WorkoutsOfUsersCell.xib; sourceTree = "<group>"; };
+		CF499E541D6C8F580081F9A1 /* ExerciseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseCell.h; path = Workouts/ExerciseCell.h; sourceTree = "<group>"; };
+		CF499E551D6C8F580081F9A1 /* ExerciseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseCell.m; path = Workouts/ExerciseCell.m; sourceTree = "<group>"; };
+		CF499E561D6C8F580081F9A1 /* ExerciseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExerciseCell.xib; path = Workouts/ExerciseCell.xib; sourceTree = "<group>"; };
+		CF499E591D6CE2880081F9A1 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = Workouts/ProfileViewController.h; sourceTree = "<group>"; };
+		CF499E5A1D6CE2880081F9A1 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = Workouts/ProfileViewController.m; sourceTree = "<group>"; };
+		CF499E5B1D6CE2880081F9A1 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileViewController.xib; path = Workouts/ProfileViewController.xib; sourceTree = "<group>"; };
+		CF499E5F1D6CF5C50081F9A1 /* BeginWorkoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeginWorkoutsViewController.h; path = Workouts/BeginWorkoutsViewController.h; sourceTree = "<group>"; };
+		CF499E601D6CF5C50081F9A1 /* BeginWorkoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeginWorkoutsViewController.m; path = Workouts/BeginWorkoutsViewController.m; sourceTree = "<group>"; };
+		CF499E611D6CF5C50081F9A1 /* BeginWorkoutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BeginWorkoutsViewController.xib; path = Workouts/BeginWorkoutsViewController.xib; sourceTree = "<group>"; };
+		CF499E6A1D6D0C680081F9A1 /* Fitlove+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Fitlove+CoreDataProperties.h"; path = "Model/Fitlove+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CF499E6B1D6D0C680081F9A1 /* Fitlove+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Fitlove+CoreDataProperties.m"; path = "Model/Fitlove+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CF499E6C1D6D0C680081F9A1 /* Fitlove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fitlove.h; path = Model/Fitlove.h; sourceTree = "<group>"; };
+		CF499E6D1D6D0C680081F9A1 /* Fitlove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fitlove.m; path = Model/Fitlove.m; sourceTree = "<group>"; };
+		CF5C22981D6D56F3008CA221 /* Workouts+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Workouts+CoreDataProperties.h"; path = "Model/Workouts+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CF5C22991D6D56F3008CA221 /* Workouts+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Workouts+CoreDataProperties.m"; path = "Model/Workouts+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CF5C229A1D6D56F3008CA221 /* Workouts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Workouts.h; path = Model/Workouts.h; sourceTree = "<group>"; };
+		CF5C229B1D6D56F3008CA221 /* Workouts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Workouts.m; path = Model/Workouts.m; sourceTree = "<group>"; };
+		CF5C229E1D6E3004008CA221 /* add_personal_profile_photo_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add_personal_profile_photo_bg.png; path = Resources/RegisterLogin/add_personal_profile_photo_bg.png; sourceTree = "<group>"; };
+		CF5C22A21D6E32F9008CA221 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Alpha.h"; path = "Classes/ImageResizing/UIImage+Alpha.h"; sourceTree = "<group>"; };
+		CF5C22A31D6E32F9008CA221 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Alpha.m"; path = "Classes/ImageResizing/UIImage+Alpha.m"; sourceTree = "<group>"; };
+		CF5C22A41D6E32F9008CA221 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "Classes/ImageResizing/UIImage+Resize.h"; sourceTree = "<group>"; };
+		CF5C22A51D6E32F9008CA221 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "Classes/ImageResizing/UIImage+Resize.m"; sourceTree = "<group>"; };
+		CF5C22A61D6E32F9008CA221 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+RoundedCorner.h"; path = "Classes/ImageResizing/UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		CF5C22A71D6E32F9008CA221 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RoundedCorner.m"; path = "Classes/ImageResizing/UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		CF609C871D808D6800BAD9FC /* login_facebook_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_facebook_btn.png; path = Resources/RegisterLogin/login_facebook_btn.png; sourceTree = "<group>"; };
+		CF609C8A1D809EFF00BAD9FC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		CF609C8B1D809EFF00BAD9FC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		CF609C8C1D809EFF00BAD9FC /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		CF62792B1DFF02CF00A2F35F /* OwnWorkoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OwnWorkoutCell.h; path = MainView/OwnWorkoutCell.h; sourceTree = "<group>"; };
+		CF62792C1DFF02CF00A2F35F /* OwnWorkoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OwnWorkoutCell.m; path = MainView/OwnWorkoutCell.m; sourceTree = "<group>"; };
+		CF62792D1DFF02CF00A2F35F /* OwnWorkoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OwnWorkoutCell.xib; path = MainView/OwnWorkoutCell.xib; sourceTree = "<group>"; };
+		CF697B541E1680B600864D84 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resources/logo.png; sourceTree = "<group>"; };
+		CF697B571E16827600864D84 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = Classes/FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		CF697B581E16827600864D84 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = Classes/FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		CF697B591E16827600864D84 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = Classes/FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		CF697B5A1E16827600864D84 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = Classes/FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+		CF697B5D1E16834500864D84 /* login_movie.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = login_movie.gif; path = Resources/login_movie.gif; sourceTree = "<group>"; };
+		CF75A0841DFE3392007A3513 /* WorkOutHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkOutHomeViewController.h; path = MainView/WorkOutHomeViewController.h; sourceTree = "<group>"; };
+		CF75A0851DFE3392007A3513 /* WorkOutHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkOutHomeViewController.m; path = MainView/WorkOutHomeViewController.m; sourceTree = "<group>"; };
+		CF75A0861DFE3392007A3513 /* WorkOutHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WorkOutHomeViewController.xib; path = MainView/WorkOutHomeViewController.xib; sourceTree = "<group>"; };
+		CF75A0891DFE37F5007A3513 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = Resources/MainView/image1.png; sourceTree = "<group>"; };
+		CF75A08A1DFE37F5007A3513 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = Resources/MainView/image2.png; sourceTree = "<group>"; };
+		CF75A08B1DFE37F5007A3513 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image3.png; path = Resources/MainView/image3.png; sourceTree = "<group>"; };
+		CF75A08C1DFE37F5007A3513 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image4.png; path = Resources/MainView/image4.png; sourceTree = "<group>"; };
+		CF75A0911DFE46D5007A3513 /* workout_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = workout_logo.png; path = Resources/MainView/workout_logo.png; sourceTree = "<group>"; };
+		CF75A0931DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstpageForAddingWorkoutViewController.h; path = Workouts/FirstpageForAddingWorkoutViewController.h; sourceTree = "<group>"; };
+		CF75A0941DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstpageForAddingWorkoutViewController.m; path = Workouts/FirstpageForAddingWorkoutViewController.m; sourceTree = "<group>"; };
+		CF75A0951DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstpageForAddingWorkoutViewController.xib; path = Workouts/FirstpageForAddingWorkoutViewController.xib; sourceTree = "<group>"; };
+		CF80C4C31DC92F9700948EA6 /* btn_workoutAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_workoutAdd.png; path = Resources/MainView/btn_workoutAdd.png; sourceTree = "<group>"; };
+		CF80C4C51DC935A000948EA6 /* check_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check_orange.png; path = Resources/MainView/check_orange.png; sourceTree = "<group>"; };
+		CF80C4C61DC935A000948EA6 /* uncheck_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uncheck_gray.png; path = Resources/MainView/uncheck_gray.png; sourceTree = "<group>"; };
+		CFAD09DF1D848CF700245078 /* fitlove_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fitlove_orange.png; path = Resources/MainView/fitlove_orange.png; sourceTree = "<group>"; };
+		CFCCBFF91DCC421A00B23CE4 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = down.png; path = Resources/MainView/down.png; sourceTree = "<group>"; };
+		CFCCBFFA1DCC421A00B23CE4 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = up.png; path = Resources/MainView/up.png; sourceTree = "<group>"; };
+		CFF685391E4811AD0027079C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		CFF7132B1D6E96E9000F0F51 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "Classes/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		CFF7132C1D6E96E9000F0F51 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "Classes/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		CFF7132D1D6E96E9000F0F51 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "Classes/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		CFF7132E1D6E96E9000F0F51 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "Classes/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		CFF7132F1D6E96E9000F0F51 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "Classes/UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		CFF713301D6E96E9000F0F51 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "Classes/UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		CFF713311D6E96E9000F0F51 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "Classes/UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		CFF713321D6E96E9000F0F51 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "Classes/UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		CFF713331D6E96E9000F0F51 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "Classes/UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		CFF713341D6E96E9000F0F51 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "Classes/UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		CFF713351D6E96E9000F0F51 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "Classes/UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		CFF713361D6E96E9000F0F51 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "Classes/UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		CFF713371D6E96E9000F0F51 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "Classes/UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		CFF713381D6E96E9000F0F51 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "Classes/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		CFF713391D6E96E9000F0F51 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "Classes/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		CFF7133A1D6E96E9000F0F51 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "Classes/UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		CFF7133B1D6E96E9000F0F51 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "Classes/UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		CFF713451D6E98AF000F0F51 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = Classes/AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CFF713461D6E98AF000F0F51 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = Classes/AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CFF713471D6E98AF000F0F51 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = Classes/AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		CFF713481D6E98AF000F0F51 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = Classes/AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		CFF713491D6E98AF000F0F51 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = Classes/AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CFF7134A1D6E98AF000F0F51 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = Classes/AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CFF7134B1D6E98AF000F0F51 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = Classes/AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		CFF7134C1D6E98AF000F0F51 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = Classes/AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CFF7134D1D6E98AF000F0F51 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = Classes/AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CFF7134E1D6E98AF000F0F51 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = Classes/AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CFF7134F1D6E98AF000F0F51 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = Classes/AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CFF713501D6E98AF000F0F51 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = Classes/AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CFF713511D6E98AF000F0F51 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = Classes/AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CFF713521D6E98AF000F0F51 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = Classes/AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CFF713531D6E98AF000F0F51 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = Classes/AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CFF713541D6E98AF000F0F51 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = Classes/AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CFF713551D6E98AF000F0F51 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = Classes/AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CFF713561D6E98AF000F0F51 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = Classes/AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		CFF713571D6E98AF000F0F51 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = Classes/AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		CFF713621D6EAEBF000F0F51 /* main_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = main_white.png; path = Resources/profile/main_white.png; sourceTree = "<group>"; };
+		CFF713631D6EAEBF000F0F51 /* man_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man_blue.png; path = Resources/profile/man_blue.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF499D621D6BC3E90081F9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF6853A1E4811AD0027079C /* UserNotifications.framework in Frameworks */,
+				CF499E1B1D6BC9750081F9A1 /* Foundation.framework in Frameworks */,
+				CF499E191D6BC96F0081F9A1 /* CoreFoundation.framework in Frameworks */,
+				CF609C8E1D809EFF00BAD9FC /* FBSDKLoginKit.framework in Frameworks */,
+				CF499E171D6BC9650081F9A1 /* AVFoundation.framework in Frameworks */,
+				CF609C8F1D809EFF00BAD9FC /* FBSDKShareKit.framework in Frameworks */,
+				CF609C8D1D809EFF00BAD9FC /* FBSDKCoreKit.framework in Frameworks */,
+				CF499E151D6BC95E0081F9A1 /* UIKit.framework in Frameworks */,
+				CF499E131D6BC9560081F9A1 /* CoreGraphics.framework in Frameworks */,
+				CF499E111D6BC94E0081F9A1 /* Accounts.framework in Frameworks */,
+				CF499E0F1D6BC9470081F9A1 /* Social.framework in Frameworks */,
+				CF499E0D1D6BC93F0081F9A1 /* MobileCoreServices.framework in Frameworks */,
+				CF499E0B1D6BC9320081F9A1 /* CFNetwork.framework in Frameworks */,
+				5B8295CEB042EFB8C099430B /* Pods_FitNectApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173F1875306B8282629D16C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFF685391E4811AD0027079C /* UserNotifications.framework */,
+				24766CAA39E56164F123F58B /* Pods_FitNectApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41E28145DD0F8AEA1C7E9B23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A82000D90B7655B31C52DD10 /* Pods-FitNectApp.debug.xcconfig */,
+				19F2F377B05A2C22FAF85F3C /* Pods-FitNectApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1FCE031DD3B4370020E38B /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				CF1FCE041DD3B4550020E38B /* NotificationViewController.h */,
+				CF1FCE051DD3B4550020E38B /* NotificationViewController.m */,
+				CF1FCE061DD3B4550020E38B /* NotificationViewController.xib */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		CF2568EC1DC95BD500E92B49 /* SKSTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CF2568ED1DC95BDD00E92B49 /* SKSTableView.h */,
+				CF2568EE1DC95BDD00E92B49 /* SKSTableView.m */,
+				CF2568EF1DC95BDD00E92B49 /* SKSTableViewCell.h */,
+				CF2568F01DC95BDE00E92B49 /* SKSTableViewCell.m */,
+				CF2568F11DC95BDE00E92B49 /* SKSTableViewCellIndicator.h */,
+				CF2568F21DC95BDE00E92B49 /* SKSTableViewCellIndicator.m */,
+			);
+			name = SKSTableView;
+			sourceTree = "<group>";
+		};
+		CF2DDBFE1E489050007F5E86 /* PushBanner */ = {
+			isa = PBXGroup;
+			children = (
+				CF2DDBFF1E48905F007F5E86 /* JCNotificationBanner.h */,
+				CF2DDC001E48905F007F5E86 /* JCNotificationBanner.m */,
+				CF2DDC011E48905F007F5E86 /* JCNotificationBannerPresenter_Private.h */,
+				CF2DDC021E48905F007F5E86 /* JCNotificationBannerPresenter.h */,
+				CF2DDC031E48905F007F5E86 /* JCNotificationBannerPresenter.m */,
+				CF2DDC041E48905F007F5E86 /* JCNotificationBannerPresenterIOS7Style.h */,
+				CF2DDC051E48905F007F5E86 /* JCNotificationBannerPresenterIOS7Style.m */,
+				CF2DDC061E48905F007F5E86 /* JCNotificationBannerPresenterIOSStyle.h */,
+				CF2DDC071E48905F007F5E86 /* JCNotificationBannerPresenterIOSStyle.m */,
+				CF2DDC081E48905F007F5E86 /* JCNotificationBannerPresenterSmokeStyle.h */,
+				CF2DDC091E48905F007F5E86 /* JCNotificationBannerPresenterSmokeStyle.m */,
+				CF2DDC0A1E48905F007F5E86 /* JCNotificationBannerView.h */,
+				CF2DDC0B1E48905F007F5E86 /* JCNotificationBannerView.m */,
+				CF2DDC0C1E48905F007F5E86 /* JCNotificationBannerViewController.h */,
+				CF2DDC0D1E48905F007F5E86 /* JCNotificationBannerViewController.m */,
+				CF2DDC0E1E48905F007F5E86 /* JCNotificationBannerViewIOS7Style.h */,
+				CF2DDC0F1E48905F007F5E86 /* JCNotificationBannerViewIOS7Style.m */,
+				CF2DDC101E48905F007F5E86 /* JCNotificationBannerViewIOSStyle.h */,
+				CF2DDC111E48905F007F5E86 /* JCNotificationBannerViewIOSStyle.m */,
+				CF2DDC121E48905F007F5E86 /* JCNotificationBannerWindow.h */,
+				CF2DDC131E48905F007F5E86 /* JCNotificationBannerWindow.m */,
+				CF2DDC141E48905F007F5E86 /* JCNotificationCenter.h */,
+				CF2DDC151E48905F007F5E86 /* JCNotificationCenter.m */,
+			);
+			name = PushBanner;
+			sourceTree = "<group>";
+		};
+		CF40903B1E157324002E4ED0 /* AddAndShow */ = {
+			isa = PBXGroup;
+			children = (
+				CF40903C1E157362002E4ED0 /* MyWorkoutsListViewController.h */,
+				CF40903D1E157362002E4ED0 /* MyWorkoutsListViewController.m */,
+				CF40903E1E157362002E4ED0 /* MyWorkoutsListViewController.xib */,
+			);
+			name = AddAndShow;
+			sourceTree = "<group>";
+		};
+		CF499D5C1D6BC3E90081F9A1 = {
+			isa = PBXGroup;
+			children = (
+				CF499E091D6BC9230081F9A1 /* Framworks */,
+				CF499D821D6BC4340081F9A1 /* Default-568h@2x.png */,
+				CF499D671D6BC3E90081F9A1 /* FitNectApp */,
+				CF499D661D6BC3E90081F9A1 /* Products */,
+				41E28145DD0F8AEA1C7E9B23 /* Pods */,
+				173F1875306B8282629D16C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF499D661D6BC3E90081F9A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF499D651D6BC3E90081F9A1 /* FitNectApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF499D671D6BC3E90081F9A1 /* FitNectApp */ = {
+			isa = PBXGroup;
+			children = (
+				CF20A8661E48DD950045979C /* FitNectApp.entitlements */,
+				CF1FCE031DD3B4370020E38B /* Notification */,
+				CF499DC61D6BC8310081F9A1 /* MainView */,
+				CF499DC51D6BC8220081F9A1 /* Setting */,
+				CF499DC41D6BC8190081F9A1 /* Workouts */,
+				CF499DBA1D6BC7C00081F9A1 /* Classes */,
+				CF499DAF1D6BC6C00081F9A1 /* RegisterLogin */,
+				CF499D6B1D6BC3E90081F9A1 /* AppDelegate.h */,
+				CF499D6C1D6BC3E90081F9A1 /* AppDelegate.m */,
+				CF499D771D6BC3E90081F9A1 /* Assets.xcassets */,
+				CF499D681D6BC3E90081F9A1 /* Supporting Files */,
+			);
+			path = FitNectApp;
+			sourceTree = "<group>";
+		};
+		CF499D681D6BC3E90081F9A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF499E471D6C5EF70081F9A1 /* Model */,
+				CF499E1C1D6BCA310081F9A1 /* GoogleService-Info.plist */,
+				CF499D841D6BC4690081F9A1 /* Resources */,
+				CF499D7C1D6BC3E90081F9A1 /* Info.plist */,
+				CF499D741D6BC3E90081F9A1 /* FitNectApp.xcdatamodeld */,
+				CF499D691D6BC3E90081F9A1 /* main.m */,
+				CF499D851D6BC49A0081F9A1 /* FitNectApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF499D841D6BC4690081F9A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF697B5D1E16834500864D84 /* login_movie.gif */,
+				CF697B541E1680B600864D84 /* logo.png */,
+				CF35E47D1E147FA7000E2B17 /* lbl_like_find.png */,
+				CFF713611D6EAEB3000F0F51 /* profile */,
+				CF499E241D6C48540081F9A1 /* raw */,
+				CF499E1E1D6BED220081F9A1 /* Splash.png */,
+				CF499D891D6BC65F0081F9A1 /* floor.png */,
+				CF499D8A1D6BC65F0081F9A1 /* gym.png */,
+				CF499D8B1D6BC65F0081F9A1 /* logo.png */,
+				CF499D881D6BC6260081F9A1 /* Mainview */,
+				CF499D871D6BC61D0081F9A1 /* RegisterLogin */,
+				CF499D861D6BC6170081F9A1 /* Setting */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF499D861D6BC6170081F9A1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CF499D9F1D6BC6740081F9A1 /* abc_ic_ab_back_mtrl_am_alpha.png */,
+				CF499DA01D6BC6740081F9A1 /* addblack.png */,
+				CF499DA11D6BC6740081F9A1 /* addwhite.png */,
+				CF499DA21D6BC6740081F9A1 /* close.png */,
+				CF499DA31D6BC6740081F9A1 /* fitlove.png */,
+				CF499DA41D6BC6740081F9A1 /* note.png */,
+				CF499DA51D6BC6740081F9A1 /* save.png */,
+				CF499DA61D6BC6740081F9A1 /* sharewhite.png */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		CF499D871D6BC61D0081F9A1 /* RegisterLogin */ = {
+			isa = PBXGroup;
+			children = (
+				CF609C871D808D6800BAD9FC /* login_facebook_btn.png */,
+				CF5C229E1D6E3004008CA221 /* add_personal_profile_photo_bg.png */,
+				CF499D9D1D6BC66D0081F9A1 /* LoginFieldBg.png */,
+			);
+			name = RegisterLogin;
+			sourceTree = "<group>";
+		};
+		CF499D881D6BC6260081F9A1 /* Mainview */ = {
+			isa = PBXGroup;
+			children = (
+				CF4090391E152A87002E4ED0 /* image0.png */,
+				CF75A0911DFE46D5007A3513 /* workout_logo.png */,
+				CF75A0891DFE37F5007A3513 /* image1.png */,
+				CF75A08A1DFE37F5007A3513 /* image2.png */,
+				CF75A08B1DFE37F5007A3513 /* image3.png */,
+				CF75A08C1DFE37F5007A3513 /* image4.png */,
+				CFCCBFF91DCC421A00B23CE4 /* down.png */,
+				CFCCBFFA1DCC421A00B23CE4 /* up.png */,
+				CF80C4C51DC935A000948EA6 /* check_orange.png */,
+				CF80C4C61DC935A000948EA6 /* uncheck_gray.png */,
+				CF80C4C31DC92F9700948EA6 /* btn_workoutAdd.png */,
+				CFAD09DF1D848CF700245078 /* fitlove_orange.png */,
+				CF499E201D6C1A550081F9A1 /* createSelected.png */,
+				CF499E211D6C1A550081F9A1 /* findSelected.png */,
+				CF499D8F1D6BC6660081F9A1 /* gym_icon.png */,
+				CF499D911D6BC6660081F9A1 /* home.png */,
+				CF499D931D6BC6660081F9A1 /* me.png */,
+				CF499D941D6BC6660081F9A1 /* menu.png */,
+			);
+			name = Mainview;
+			sourceTree = "<group>";
+		};
+		CF499DAF1D6BC6C00081F9A1 /* RegisterLogin */ = {
+			isa = PBXGroup;
+			children = (
+				CF499DB01D6BC6DD0081F9A1 /* LoginViewController.h */,
+				CF499DB11D6BC6DD0081F9A1 /* LoginViewController.m */,
+				CF499DB21D6BC6DD0081F9A1 /* LoginViewController.xib */,
+				CF499DB31D6BC6DD0081F9A1 /* RegisterViewController.h */,
+				CF499DB41D6BC6DD0081F9A1 /* RegisterViewController.m */,
+				CF499DB51D6BC6DD0081F9A1 /* RegisterViewController.xib */,
+			);
+			name = RegisterLogin;
+			sourceTree = "<group>";
+		};
+		CF499DBA1D6BC7C00081F9A1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF2DDBFE1E489050007F5E86 /* PushBanner */,
+				CF697B561E16826900864D84 /* FLAnimatedImage */,
+				CF2568EC1DC95BD500E92B49 /* SKSTableView */,
+				CFF713441D6E98A5000F0F51 /* AFNetworking */,
+				CFF7132A1D6E96E0000F0F51 /* UIKit+AFNetworking */,
+				CF5C22A11D6E32F0008CA221 /* ImageResizing */,
+				CF499DBC1D6BC7D30081F9A1 /* Global */,
+				CF499DBB1D6BC7C70081F9A1 /* MBProgressHUD */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CF499DBB1D6BC7C70081F9A1 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CF499DC11D6BC7F40081F9A1 /* MBProgressHUD.h */,
+				CF499DC21D6BC7F40081F9A1 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		CF499DBC1D6BC7D30081F9A1 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				CF499DBD1D6BC7EF0081F9A1 /* Global.h */,
+				CF499DBE1D6BC7EF0081F9A1 /* GlobalData.h */,
+				CF499DBF1D6BC7EF0081F9A1 /* GlobalData.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		CF499DC41D6BC8190081F9A1 /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				CF40903B1E157324002E4ED0 /* AddAndShow */,
+				CF75A0931DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.h */,
+				CF75A0941DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.m */,
+				CF75A0951DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.xib */,
+				CF499DD11D6BC84E0081F9A1 /* AddEditWorkOutsViewController.h */,
+				CF499DD21D6BC84E0081F9A1 /* AddEditWorkOutsViewController.m */,
+				CF22BC981DD28D70008A4D29 /* AddEditWorkOutsViewController.xib */,
+				CF22BCA01DD33E67008A4D29 /* RepsAndCommentViewController.h */,
+				CF22BCA11DD33E67008A4D29 /* RepsAndCommentViewController.m */,
+				CF22BCA21DD33E67008A4D29 /* RepsAndCommentViewController.xib */,
+				CF499DD41D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.h */,
+				CF499DD51D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.m */,
+				CF499DD61D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.xib */,
+				CF499DD71D6BC84E0081F9A1 /* PreviewWorkOutsViewController.h */,
+				CF499DD81D6BC84E0081F9A1 /* PreviewWorkOutsViewController.m */,
+				CF499DD91D6BC84E0081F9A1 /* PreviewWorkOutsViewController.xib */,
+				CF499DDA1D6BC84E0081F9A1 /* SelectExerciseViewController.h */,
+				CF499DDB1D6BC84E0081F9A1 /* SelectExerciseViewController.m */,
+				CF499DDC1D6BC84E0081F9A1 /* SelectExerciseViewController.xib */,
+				CF499DDD1D6BC84E0081F9A1 /* UserWorkoutsViewController.h */,
+				CF499DDE1D6BC84E0081F9A1 /* UserWorkoutsViewController.m */,
+				CF499DDF1D6BC84E0081F9A1 /* UserWorkoutsViewController.xib */,
+				CF499DE01D6BC84E0081F9A1 /* WorkOutsCell.h */,
+				CF499DE11D6BC84E0081F9A1 /* WorkOutsCell.m */,
+				CF499DE21D6BC84E0081F9A1 /* WorkOutsCell.xib */,
+				CF2BE5001DC9762300A8F8F2 /* RepsCell.h */,
+				CF2BE5011DC9762300A8F8F2 /* RepsCell.m */,
+				CF2BE5021DC9762300A8F8F2 /* RepsCell.xib */,
+				CF499DE31D6BC84E0081F9A1 /* WorkOutsViewController.h */,
+				CF499DE41D6BC84E0081F9A1 /* WorkOutsViewController.m */,
+				CF499DE51D6BC84E0081F9A1 /* WorkOutsViewController.xib */,
+				CF499E541D6C8F580081F9A1 /* ExerciseCell.h */,
+				CF499E551D6C8F580081F9A1 /* ExerciseCell.m */,
+				CF499E561D6C8F580081F9A1 /* ExerciseCell.xib */,
+				CF499E591D6CE2880081F9A1 /* ProfileViewController.h */,
+				CF499E5A1D6CE2880081F9A1 /* ProfileViewController.m */,
+				CF499E5B1D6CE2880081F9A1 /* ProfileViewController.xib */,
+				CF499E5F1D6CF5C50081F9A1 /* BeginWorkoutsViewController.h */,
+				CF499E601D6CF5C50081F9A1 /* BeginWorkoutsViewController.m */,
+				CF499E611D6CF5C50081F9A1 /* BeginWorkoutsViewController.xib */,
+				CF22BC9A1DD294B1008A4D29 /* RepsEditCell.h */,
+				CF22BC9B1DD294B1008A4D29 /* RepsEditCell.m */,
+				CF22BC9C1DD294B1008A4D29 /* RepsEditCell.xib */,
+			);
+			name = Workouts;
+			sourceTree = "<group>";
+		};
+		CF499DC51D6BC8220081F9A1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CF499DC71D6BC8460081F9A1 /* SelectGYMViewController.h */,
+				CF499DC81D6BC8460081F9A1 /* SelectGYMViewController.m */,
+				CF499DC91D6BC8460081F9A1 /* SelectGYMViewController.xib */,
+				CF499DCA1D6BC8460081F9A1 /* SettingViewController.h */,
+				CF499DCB1D6BC8460081F9A1 /* SettingViewController.m */,
+				CF499DCC1D6BC8460081F9A1 /* SettingViewController.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		CF499DC61D6BC8310081F9A1 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				CF499DF41D6BC85A0081F9A1 /* HomeViewController.h */,
+				CF499DF51D6BC85A0081F9A1 /* HomeViewController.m */,
+				CF499DF61D6BC85A0081F9A1 /* HomeViewController.xib */,
+				CF499DF71D6BC85A0081F9A1 /* MainViewController.h */,
+				CF499DF81D6BC85A0081F9A1 /* MainViewController.m */,
+				CF499DF91D6BC85A0081F9A1 /* MainViewController.xib */,
+				CF499DFA1D6BC85A0081F9A1 /* MyWorkOutViewController.h */,
+				CF499DFB1D6BC85A0081F9A1 /* MyWorkOutViewController.m */,
+				CF499DFC1D6BC85A0081F9A1 /* MyWorkOutViewController.xib */,
+				CF499E4E1D6C68C40081F9A1 /* WorkoutsOfUsersCell.h */,
+				CF499E4F1D6C68C40081F9A1 /* WorkoutsOfUsersCell.m */,
+				CF499E501D6C68C40081F9A1 /* WorkoutsOfUsersCell.xib */,
+				CF75A0841DFE3392007A3513 /* WorkOutHomeViewController.h */,
+				CF75A0851DFE3392007A3513 /* WorkOutHomeViewController.m */,
+				CF75A0861DFE3392007A3513 /* WorkOutHomeViewController.xib */,
+				CF62792B1DFF02CF00A2F35F /* OwnWorkoutCell.h */,
+				CF62792C1DFF02CF00A2F35F /* OwnWorkoutCell.m */,
+				CF62792D1DFF02CF00A2F35F /* OwnWorkoutCell.xib */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		CF499E091D6BC9230081F9A1 /* Framworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF609C8A1D809EFF00BAD9FC /* FBSDKCoreKit.framework */,
+				CF609C8B1D809EFF00BAD9FC /* FBSDKLoginKit.framework */,
+				CF609C8C1D809EFF00BAD9FC /* FBSDKShareKit.framework */,
+				CF499E1A1D6BC9750081F9A1 /* Foundation.framework */,
+				CF499E181D6BC96F0081F9A1 /* CoreFoundation.framework */,
+				CF499E161D6BC9650081F9A1 /* AVFoundation.framework */,
+				CF499E141D6BC95E0081F9A1 /* UIKit.framework */,
+				CF499E121D6BC9560081F9A1 /* CoreGraphics.framework */,
+				CF499E101D6BC94E0081F9A1 /* Accounts.framework */,
+				CF499E0E1D6BC9470081F9A1 /* Social.framework */,
+				CF499E0C1D6BC93F0081F9A1 /* MobileCoreServices.framework */,
+				CF499E0A1D6BC9320081F9A1 /* CFNetwork.framework */,
+			);
+			name = Framworks;
+			sourceTree = "<group>";
+		};
+		CF499E241D6C48540081F9A1 /* raw */ = {
+			isa = PBXGroup;
+			children = (
+				CF499E251D6C485E0081F9A1 /* abs_fw.rtf */,
+				CF499E261D6C485E0081F9A1 /* abs_mcn.rtf */,
+				CF499E271D6C485E0081F9A1 /* all_exercises.rtf */,
+				CF499E281D6C485E0081F9A1 /* back_fw.rtf */,
+				CF499E291D6C485E0081F9A1 /* back_mcn.rtf */,
+				CF499E2A1D6C485E0081F9A1 /* biceps_fw.rtf */,
+				CF499E2B1D6C485E0081F9A1 /* biceps_mcn.rtf */,
+				CF499E2C1D6C485E0081F9A1 /* cardio_fw.rtf */,
+				CF499E2D1D6C485E0081F9A1 /* cardio_mcn.rtf */,
+				CF499E2E1D6C485E0081F9A1 /* chest_fw.rtf */,
+				CF499E2F1D6C485E0081F9A1 /* chest_mcn.rtf */,
+				CF499E301D6C485E0081F9A1 /* legs_fw.rtf */,
+				CF499E311D6C485E0081F9A1 /* legs_mcn.rtf */,
+				CF499E321D6C485E0081F9A1 /* shoulders_fw.rtf */,
+				CF499E331D6C485E0081F9A1 /* shoulders_mcn.rtf */,
+				CF499E341D6C485E0081F9A1 /* triceps_fw.rtf */,
+				CF499E351D6C485E0081F9A1 /* triceps_mcn.rtf */,
+			);
+			name = raw;
+			sourceTree = "<group>";
+		};
+		CF499E471D6C5EF70081F9A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF499E6A1D6D0C680081F9A1 /* Fitlove+CoreDataProperties.h */,
+				CF499E6B1D6D0C680081F9A1 /* Fitlove+CoreDataProperties.m */,
+				CF499E6C1D6D0C680081F9A1 /* Fitlove.h */,
+				CF499E6D1D6D0C680081F9A1 /* Fitlove.m */,
+				CF5C22981D6D56F3008CA221 /* Workouts+CoreDataProperties.h */,
+				CF5C22991D6D56F3008CA221 /* Workouts+CoreDataProperties.m */,
+				CF5C229A1D6D56F3008CA221 /* Workouts.h */,
+				CF5C229B1D6D56F3008CA221 /* Workouts.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CF5C22A11D6E32F0008CA221 /* ImageResizing */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C22A21D6E32F9008CA221 /* UIImage+Alpha.h */,
+				CF5C22A31D6E32F9008CA221 /* UIImage+Alpha.m */,
+				CF5C22A41D6E32F9008CA221 /* UIImage+Resize.h */,
+				CF5C22A51D6E32F9008CA221 /* UIImage+Resize.m */,
+				CF5C22A61D6E32F9008CA221 /* UIImage+RoundedCorner.h */,
+				CF5C22A71D6E32F9008CA221 /* UIImage+RoundedCorner.m */,
+			);
+			name = ImageResizing;
+			sourceTree = "<group>";
+		};
+		CF697B561E16826900864D84 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				CF697B571E16827600864D84 /* FLAnimatedImage.h */,
+				CF697B581E16827600864D84 /* FLAnimatedImage.m */,
+				CF697B591E16827600864D84 /* FLAnimatedImageView.h */,
+				CF697B5A1E16827600864D84 /* FLAnimatedImageView.m */,
+			);
+			name = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		CFF7132A1D6E96E0000F0F51 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CFF7132B1D6E96E9000F0F51 /* AFNetworkActivityIndicatorManager.h */,
+				CFF7132C1D6E96E9000F0F51 /* AFNetworkActivityIndicatorManager.m */,
+				CFF7132D1D6E96E9000F0F51 /* UIActivityIndicatorView+AFNetworking.h */,
+				CFF7132E1D6E96E9000F0F51 /* UIActivityIndicatorView+AFNetworking.m */,
+				CFF7132F1D6E96E9000F0F51 /* UIAlertView+AFNetworking.h */,
+				CFF713301D6E96E9000F0F51 /* UIAlertView+AFNetworking.m */,
+				CFF713311D6E96E9000F0F51 /* UIButton+AFNetworking.h */,
+				CFF713321D6E96E9000F0F51 /* UIButton+AFNetworking.m */,
+				CFF713331D6E96E9000F0F51 /* UIImageView+AFNetworking.h */,
+				CFF713341D6E96E9000F0F51 /* UIImageView+AFNetworking.m */,
+				CFF713351D6E96E9000F0F51 /* UIKit+AFNetworking.h */,
+				CFF713361D6E96E9000F0F51 /* UIProgressView+AFNetworking.h */,
+				CFF713371D6E96E9000F0F51 /* UIProgressView+AFNetworking.m */,
+				CFF713381D6E96E9000F0F51 /* UIRefreshControl+AFNetworking.h */,
+				CFF713391D6E96E9000F0F51 /* UIRefreshControl+AFNetworking.m */,
+				CFF7133A1D6E96E9000F0F51 /* UIWebView+AFNetworking.h */,
+				CFF7133B1D6E96E9000F0F51 /* UIWebView+AFNetworking.m */,
+			);
+			name = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		CFF713441D6E98A5000F0F51 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CFF713451D6E98AF000F0F51 /* AFHTTPRequestOperation.h */,
+				CFF713461D6E98AF000F0F51 /* AFHTTPRequestOperation.m */,
+				CFF713471D6E98AF000F0F51 /* AFHTTPRequestOperationManager.h */,
+				CFF713481D6E98AF000F0F51 /* AFHTTPRequestOperationManager.m */,
+				CFF713491D6E98AF000F0F51 /* AFHTTPSessionManager.h */,
+				CFF7134A1D6E98AF000F0F51 /* AFHTTPSessionManager.m */,
+				CFF7134B1D6E98AF000F0F51 /* AFNetworking.h */,
+				CFF7134C1D6E98AF000F0F51 /* AFNetworkReachabilityManager.h */,
+				CFF7134D1D6E98AF000F0F51 /* AFNetworkReachabilityManager.m */,
+				CFF7134E1D6E98AF000F0F51 /* AFSecurityPolicy.h */,
+				CFF7134F1D6E98AF000F0F51 /* AFSecurityPolicy.m */,
+				CFF713501D6E98AF000F0F51 /* AFURLConnectionOperation.h */,
+				CFF713511D6E98AF000F0F51 /* AFURLConnectionOperation.m */,
+				CFF713521D6E98AF000F0F51 /* AFURLRequestSerialization.h */,
+				CFF713531D6E98AF000F0F51 /* AFURLRequestSerialization.m */,
+				CFF713541D6E98AF000F0F51 /* AFURLResponseSerialization.h */,
+				CFF713551D6E98AF000F0F51 /* AFURLResponseSerialization.m */,
+				CFF713561D6E98AF000F0F51 /* AFURLSessionManager.h */,
+				CFF713571D6E98AF000F0F51 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CFF713611D6EAEB3000F0F51 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				CFF713621D6EAEBF000F0F51 /* main_white.png */,
+				CFF713631D6EAEBF000F0F51 /* man_blue.png */,
+			);
+			name = profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF499D641D6BC3E90081F9A1 /* FitNectApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF499D7F1D6BC3E90081F9A1 /* Build configuration list for PBXNativeTarget "FitNectApp" */;
+			buildPhases = (
+				D8F7A04D91A35AA4A8DD366E /* [CP] Check Pods Manifest.lock */,
+				CF499D611D6BC3E90081F9A1 /* Sources */,
+				CF499D621D6BC3E90081F9A1 /* Frameworks */,
+				CF499D631D6BC3E90081F9A1 /* Resources */,
+				703464E3D0D5948AC53AC50E /* [CP] Embed Pods Frameworks */,
+				57554EF7532506B3BE47DCEC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitNectApp;
+			productName = FitNectApp;
+			productReference = CF499D651D6BC3E90081F9A1 /* FitNectApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF499D5D1D6BC3E90081F9A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lovisa;
+				TargetAttributes = {
+					CF499D641D6BC3E90081F9A1 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = P4D3MG2FYY;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CF499D601D6BC3E90081F9A1 /* Build configuration list for PBXProject "FitNectApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF499D5C1D6BC3E90081F9A1;
+			productRefGroup = CF499D661D6BC3E90081F9A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF499D641D6BC3E90081F9A1 /* FitNectApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF499D631D6BC3E90081F9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF499E3D1D6C485E0081F9A1 /* cardio_fw.rtf in Resources */,
+				CF499E3F1D6C485E0081F9A1 /* chest_fw.rtf in Resources */,
+				CF499DE91D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.xib in Resources */,
+				CFF713651D6EAEBF000F0F51 /* man_blue.png in Resources */,
+				CF609C881D808D6800BAD9FC /* login_facebook_btn.png in Resources */,
+				CF499DCE1D6BC8460081F9A1 /* SelectGYMViewController.xib in Resources */,
+				CF499DF11D6BC84E0081F9A1 /* WorkOutsCell.xib in Resources */,
+				CF80C4C71DC935A000948EA6 /* check_orange.png in Resources */,
+				CF499E051D6BC85A0081F9A1 /* MyWorkOutViewController.xib in Resources */,
+				CF499D9E1D6BC66D0081F9A1 /* LoginFieldBg.png in Resources */,
+				CF75A0971DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.xib in Resources */,
+				CF499E1D1D6BCA310081F9A1 /* GoogleService-Info.plist in Resources */,
+				CF22BC991DD28D70008A4D29 /* AddEditWorkOutsViewController.xib in Resources */,
+				CF75A0921DFE46D5007A3513 /* workout_logo.png in Resources */,
+				CF499DB71D6BC6DD0081F9A1 /* LoginViewController.xib in Resources */,
+				CF697B5E1E16834500864D84 /* login_movie.gif in Resources */,
+				CF499DED1D6BC84E0081F9A1 /* SelectExerciseViewController.xib in Resources */,
+				CF80C4C41DC92F9700948EA6 /* btn_workoutAdd.png in Resources */,
+				CF22BCA41DD33E67008A4D29 /* RepsAndCommentViewController.xib in Resources */,
+				CF62792F1DFF02CF00A2F35F /* OwnWorkoutCell.xib in Resources */,
+				CF22BC9E1DD294B1008A4D29 /* RepsEditCell.xib in Resources */,
+				CF499D8C1D6BC65F0081F9A1 /* floor.png in Resources */,
+				CF499E451D6C485E0081F9A1 /* triceps_fw.rtf in Resources */,
+				CF499E401D6C485E0081F9A1 /* chest_mcn.rtf in Resources */,
+				CF499E411D6C485E0081F9A1 /* legs_fw.rtf in Resources */,
+				CFF713641D6EAEBF000F0F51 /* main_white.png in Resources */,
+				CF499D8E1D6BC65F0081F9A1 /* logo.png in Resources */,
+				CF499D781D6BC3E90081F9A1 /* Assets.xcassets in Resources */,
+				CF499D831D6BC4340081F9A1 /* Default-568h@2x.png in Resources */,
+				CF499E581D6C8F580081F9A1 /* ExerciseCell.xib in Resources */,
+				CF499E5D1D6CE2880081F9A1 /* ProfileViewController.xib in Resources */,
+				CF35E47E1E147FA7000E2B17 /* lbl_like_find.png in Resources */,
+				CF80C4C81DC935A000948EA6 /* uncheck_gray.png in Resources */,
+				CF499DAD1D6BC6740081F9A1 /* save.png in Resources */,
+				CFAD09E01D848CF700245078 /* fitlove_orange.png in Resources */,
+				CF499DEF1D6BC84E0081F9A1 /* UserWorkoutsViewController.xib in Resources */,
+				CF499E421D6C485E0081F9A1 /* legs_mcn.rtf in Resources */,
+				CF499D981D6BC6660081F9A1 /* home.png in Resources */,
+				CF499E1F1D6BED220081F9A1 /* Splash.png in Resources */,
+				CF499E631D6CF5C50081F9A1 /* BeginWorkoutsViewController.xib in Resources */,
+				CF499DAB1D6BC6740081F9A1 /* fitlove.png in Resources */,
+				CF499E031D6BC85A0081F9A1 /* MainViewController.xib in Resources */,
+				CF75A0881DFE3392007A3513 /* WorkOutHomeViewController.xib in Resources */,
+				CF499E3A1D6C485E0081F9A1 /* back_mcn.rtf in Resources */,
+				CF75A08F1DFE37F5007A3513 /* image3.png in Resources */,
+				CFCCBFFB1DCC421A00B23CE4 /* down.png in Resources */,
+				CFCCBFFC1DCC421A00B23CE4 /* up.png in Resources */,
+				CF75A08E1DFE37F5007A3513 /* image2.png in Resources */,
+				CF499D9A1D6BC6660081F9A1 /* me.png in Resources */,
+				CF499E441D6C485E0081F9A1 /* shoulders_mcn.rtf in Resources */,
+				CF499DB91D6BC6DD0081F9A1 /* RegisterViewController.xib in Resources */,
+				CF40903A1E152A87002E4ED0 /* image0.png in Resources */,
+				CF499DA91D6BC6740081F9A1 /* addwhite.png in Resources */,
+				CF499E3B1D6C485E0081F9A1 /* biceps_fw.rtf in Resources */,
+				CF499D961D6BC6660081F9A1 /* gym_icon.png in Resources */,
+				CF499DAC1D6BC6740081F9A1 /* note.png in Resources */,
+				CF697B551E1680B600864D84 /* logo.png in Resources */,
+				CF499DA71D6BC6740081F9A1 /* abc_ic_ab_back_mtrl_am_alpha.png in Resources */,
+				CF4090401E157362002E4ED0 /* MyWorkoutsListViewController.xib in Resources */,
+				CF499D9B1D6BC6660081F9A1 /* menu.png in Resources */,
+				CF499D8D1D6BC65F0081F9A1 /* gym.png in Resources */,
+				CF75A08D1DFE37F5007A3513 /* image1.png in Resources */,
+				CF499DF31D6BC84E0081F9A1 /* WorkOutsViewController.xib in Resources */,
+				CF499DA81D6BC6740081F9A1 /* addblack.png in Resources */,
+				CF2BE5041DC9762300A8F8F2 /* RepsCell.xib in Resources */,
+				CF499DD01D6BC8460081F9A1 /* SettingViewController.xib in Resources */,
+				CF499E381D6C485E0081F9A1 /* all_exercises.rtf in Resources */,
+				CF499E521D6C68C40081F9A1 /* WorkoutsOfUsersCell.xib in Resources */,
+				CF499E231D6C1A550081F9A1 /* findSelected.png in Resources */,
+				CF499E221D6C1A550081F9A1 /* createSelected.png in Resources */,
+				CF499E3C1D6C485E0081F9A1 /* biceps_mcn.rtf in Resources */,
+				CF499E3E1D6C485E0081F9A1 /* cardio_mcn.rtf in Resources */,
+				CF499E361D6C485E0081F9A1 /* abs_fw.rtf in Resources */,
+				CF499E371D6C485E0081F9A1 /* abs_mcn.rtf in Resources */,
+				CF75A0901DFE37F5007A3513 /* image4.png in Resources */,
+				CF499E431D6C485E0081F9A1 /* shoulders_fw.rtf in Resources */,
+				CF499E391D6C485E0081F9A1 /* back_fw.rtf in Resources */,
+				CF499DEB1D6BC84E0081F9A1 /* PreviewWorkOutsViewController.xib in Resources */,
+				CF499DAA1D6BC6740081F9A1 /* close.png in Resources */,
+				CF499E461D6C485E0081F9A1 /* triceps_mcn.rtf in Resources */,
+				CF499DAE1D6BC6740081F9A1 /* sharewhite.png in Resources */,
+				CF1FCE081DD3B4550020E38B /* NotificationViewController.xib in Resources */,
+				CF5C229F1D6E3004008CA221 /* add_personal_profile_photo_bg.png in Resources */,
+				CF499E011D6BC85A0081F9A1 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57554EF7532506B3BE47DCEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitNectApp/Pods-FitNectApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		703464E3D0D5948AC53AC50E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitNectApp/Pods-FitNectApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8F7A04D91A35AA4A8DD366E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF499D611D6BC3E90081F9A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2DDC191E48905F007F5E86 /* JCNotificationBannerPresenterIOSStyle.m in Sources */,
+				CF5C229C1D6D56F3008CA221 /* Workouts+CoreDataProperties.m in Sources */,
+				CF499DF21D6BC84E0081F9A1 /* WorkOutsViewController.m in Sources */,
+				CF2DDC1F1E48905F007F5E86 /* JCNotificationBannerWindow.m in Sources */,
+				CF499E571D6C8F580081F9A1 /* ExerciseCell.m in Sources */,
+				CF2BE5031DC9762300A8F8F2 /* RepsCell.m in Sources */,
+				CFF7133D1D6E96E9000F0F51 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				CFF7135D1D6E98AF000F0F51 /* AFURLConnectionOperation.m in Sources */,
+				CF499DCD1D6BC8460081F9A1 /* SelectGYMViewController.m in Sources */,
+				CF499E5C1D6CE2880081F9A1 /* ProfileViewController.m in Sources */,
+				CFF713401D6E96E9000F0F51 /* UIImageView+AFNetworking.m in Sources */,
+				CFF713601D6E98AF000F0F51 /* AFURLSessionManager.m in Sources */,
+				CFF713431D6E96E9000F0F51 /* UIWebView+AFNetworking.m in Sources */,
+				CFF713591D6E98AF000F0F51 /* AFHTTPRequestOperationManager.m in Sources */,
+				CF499E041D6BC85A0081F9A1 /* MyWorkOutViewController.m in Sources */,
+				CF499DC01D6BC7EF0081F9A1 /* GlobalData.m in Sources */,
+				CFF7135B1D6E98AF000F0F51 /* AFNetworkReachabilityManager.m in Sources */,
+				CF499E6E1D6D0C680081F9A1 /* Fitlove+CoreDataProperties.m in Sources */,
+				CF75A0871DFE3392007A3513 /* WorkOutHomeViewController.m in Sources */,
+				CFF713581D6E98AF000F0F51 /* AFHTTPRequestOperation.m in Sources */,
+				CF499DE61D6BC84E0081F9A1 /* AddEditWorkOutsViewController.m in Sources */,
+				CF62792E1DFF02CF00A2F35F /* OwnWorkoutCell.m in Sources */,
+				CF2DDC161E48905F007F5E86 /* JCNotificationBanner.m in Sources */,
+				CF22BC9D1DD294B1008A4D29 /* RepsEditCell.m in Sources */,
+				CF499DB81D6BC6DD0081F9A1 /* RegisterViewController.m in Sources */,
+				CF2DDC1C1E48905F007F5E86 /* JCNotificationBannerViewController.m in Sources */,
+				CF40903F1E157362002E4ED0 /* MyWorkoutsListViewController.m in Sources */,
+				CF2DDC171E48905F007F5E86 /* JCNotificationBannerPresenter.m in Sources */,
+				CF2DDC1A1E48905F007F5E86 /* JCNotificationBannerPresenterSmokeStyle.m in Sources */,
+				CF499E621D6CF5C50081F9A1 /* BeginWorkoutsViewController.m in Sources */,
+				CF499DB61D6BC6DD0081F9A1 /* LoginViewController.m in Sources */,
+				CF2DDC181E48905F007F5E86 /* JCNotificationBannerPresenterIOS7Style.m in Sources */,
+				CF499DEE1D6BC84E0081F9A1 /* UserWorkoutsViewController.m in Sources */,
+				CFF7135C1D6E98AF000F0F51 /* AFSecurityPolicy.m in Sources */,
+				CF499D761D6BC3E90081F9A1 /* FitNectApp.xcdatamodeld in Sources */,
+				CF2568F51DC95BDE00E92B49 /* SKSTableViewCellIndicator.m in Sources */,
+				CFF7133F1D6E96E9000F0F51 /* UIButton+AFNetworking.m in Sources */,
+				CF1FCE071DD3B4550020E38B /* NotificationViewController.m in Sources */,
+				CF499E001D6BC85A0081F9A1 /* HomeViewController.m in Sources */,
+				CF499E6F1D6D0C680081F9A1 /* Fitlove.m in Sources */,
+				CF499DEC1D6BC84E0081F9A1 /* SelectExerciseViewController.m in Sources */,
+				CF499DF01D6BC84E0081F9A1 /* WorkOutsCell.m in Sources */,
+				CF2DDC1B1E48905F007F5E86 /* JCNotificationBannerView.m in Sources */,
+				CF5C22A81D6E32F9008CA221 /* UIImage+Alpha.m in Sources */,
+				CFF7133C1D6E96E9000F0F51 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				CF22BCA31DD33E67008A4D29 /* RepsAndCommentViewController.m in Sources */,
+				CF2568F41DC95BDE00E92B49 /* SKSTableViewCell.m in Sources */,
+				CF499DCF1D6BC8460081F9A1 /* SettingViewController.m in Sources */,
+				CF499DE81D6BC84E0081F9A1 /* OneWorkouksCurrentUserViewController.m in Sources */,
+				CF499E021D6BC85A0081F9A1 /* MainViewController.m in Sources */,
+				CF75A0961DFE5887007A3513 /* FirstpageForAddingWorkoutViewController.m in Sources */,
+				CF2DDC201E48905F007F5E86 /* JCNotificationCenter.m in Sources */,
+				CF499D6D1D6BC3E90081F9A1 /* AppDelegate.m in Sources */,
+				CFF7133E1D6E96E9000F0F51 /* UIAlertView+AFNetworking.m in Sources */,
+				CF499DEA1D6BC84E0081F9A1 /* PreviewWorkOutsViewController.m in Sources */,
+				CFF7135A1D6E98AF000F0F51 /* AFHTTPSessionManager.m in Sources */,
+				CF2DDC1D1E48905F007F5E86 /* JCNotificationBannerViewIOS7Style.m in Sources */,
+				CF697B5C1E16827600864D84 /* FLAnimatedImageView.m in Sources */,
+				CF697B5B1E16827600864D84 /* FLAnimatedImage.m in Sources */,
+				CFF713421D6E96E9000F0F51 /* UIRefreshControl+AFNetworking.m in Sources */,
+				CFF713411D6E96E9000F0F51 /* UIProgressView+AFNetworking.m in Sources */,
+				CF499D6A1D6BC3E90081F9A1 /* main.m in Sources */,
+				CF499DC31D6BC7F40081F9A1 /* MBProgressHUD.m in Sources */,
+				CF499E511D6C68C40081F9A1 /* WorkoutsOfUsersCell.m in Sources */,
+				CF5C22AA1D6E32F9008CA221 /* UIImage+RoundedCorner.m in Sources */,
+				CFF7135E1D6E98AF000F0F51 /* AFURLRequestSerialization.m in Sources */,
+				CF2568F31DC95BDE00E92B49 /* SKSTableView.m in Sources */,
+				CF5C229D1D6D56F3008CA221 /* Workouts.m in Sources */,
+				CF2DDC1E1E48905F007F5E86 /* JCNotificationBannerViewIOSStyle.m in Sources */,
+				CFF7135F1D6E98AF000F0F51 /* AFURLResponseSerialization.m in Sources */,
+				CF5C22A91D6E32F9008CA221 /* UIImage+Resize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF499D7D1D6BC3E90081F9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF499D7E1D6BC3E90081F9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF499D801D6BC3E90081F9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A82000D90B7655B31C52DD10 /* Pods-FitNectApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitNectApp/FitNectApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P4D3MG2FYY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
+				GCC_PREFIX_HEADER = "FitNectApp/FitNectApp-Prefix.pch";
+				INFOPLIST_FILE = FitNectApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitShare.FindNewWorkouts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "28b1a56c-4f71-450e-8915-6751ea5d00c3";
+				PROVISIONING_PROFILE_SPECIFIER = devPro;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CF499D811D6BC3E90081F9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F2F377B05A2C22FAF85F3C /* Pods-FitNectApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitNectApp/FitNectApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P4D3MG2FYY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
+				GCC_PREFIX_HEADER = "FitNectApp/FitNectApp-Prefix.pch";
+				INFOPLIST_FILE = FitNectApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitShare.FindNewWorkouts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "28b1a56c-4f71-450e-8915-6751ea5d00c3";
+				PROVISIONING_PROFILE_SPECIFIER = devPro;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF499D601D6BC3E90081F9A1 /* Build configuration list for PBXProject "FitNectApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF499D7D1D6BC3E90081F9A1 /* Debug */,
+				CF499D7E1D6BC3E90081F9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF499D7F1D6BC3E90081F9A1 /* Build configuration list for PBXNativeTarget "FitNectApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF499D801D6BC3E90081F9A1 /* Debug */,
+				CF499D811D6BC3E90081F9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF499D741D6BC3E90081F9A1 /* FitNectApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF499D751D6BC3E90081F9A1 /* FitNectApp.xcdatamodel */,
+			);
+			currentVersion = CF499D751D6BC3E90081F9A1 /* FitNectApp.xcdatamodel */;
+			path = FitNectApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF499D5D1D6BC3E90081F9A1 /* Project object */;
+}

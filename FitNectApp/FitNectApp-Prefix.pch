@@ -1,0 +1,25 @@
+//
+//  FitNectApp-Prefix.pch
+//  FitNectApp
+//
+//  Created by stepanekdavid on 8/23/16.
+//  Copyright © 2016 lovisa. All rights reserved.
+//
+#import <Availability.h>
+#ifndef FitNectApp_Prefix_h
+#define FitNectApp_Prefix_h
+
+#define APP_TITLE                       @"FitNectApp"
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import <CoreData/CoreData.h>
+#import "MBProgressHUD.h"
+#import "Global.h"
+#import "Workouts.h"
+#import "Fitlove.h"
+#endif
+
+#endif /* FitNectApp_Prefix_h */

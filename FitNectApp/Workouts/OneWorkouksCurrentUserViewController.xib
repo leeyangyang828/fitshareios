@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OneWorkouksCurrentUserViewController">
+            <connections>
+                <outlet property="lblComments" destination="1vB-oo-dEb" id="gjT-CN-D9l"/>
+                <outlet property="lblWorkoutsName" destination="11A-G2-TiR" id="Nh1-Mr-Kxd"/>
+                <outlet property="noteView" destination="0Fk-RP-isJ" id="KEq-PP-F71"/>
+                <outlet property="view" destination="RIo-oA-UlB" id="Re5-PC-vAd"/>
+                <outlet property="workoutsFromFireBaseTableview" destination="eDm-T2-PaP" id="lpn-Vn-ZRp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="RIo-oA-UlB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eDm-T2-PaP">
+                    <rect key="frame" x="0.0" y="40" width="320" height="464"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="5kn-o0-p16"/>
+                        <outlet property="delegate" destination="-1" id="DNG-vD-NUS"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11A-G2-TiR">
+                    <rect key="frame" x="0.0" y="8" width="320" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Fk-RP-isJ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCR-pu-ZhM">
+                            <rect key="frame" x="123" y="70" width="75" height="36"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="75" id="LRQ-qJ-Sii"/>
+                                <constraint firstAttribute="height" constant="36" id="yBt-s2-mrY"/>
+                            </constraints>
+                            <state key="normal" title="Close">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onCloseClick:" destination="-1" eventType="touchUpInside" id="0jZ-RI-7AG"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drop set last set for every exercise." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vB-oo-dEb">
+                            <rect key="frame" x="68" y="0.0" width="185" height="70"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="70" id="oCI-ES-KC8"/>
+                                <constraint firstAttribute="width" constant="185" id="y9d-iX-sGW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.38003771549999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="VCR-pu-ZhM" firstAttribute="centerX" secondItem="0Fk-RP-isJ" secondAttribute="centerX" id="1ri-vd-PWI"/>
+                        <constraint firstItem="VCR-pu-ZhM" firstAttribute="top" secondItem="1vB-oo-dEb" secondAttribute="bottom" id="SQM-5u-aqk"/>
+                        <constraint firstItem="1vB-oo-dEb" firstAttribute="centerX" secondItem="0Fk-RP-isJ" secondAttribute="centerX" id="XGU-LY-ecO"/>
+                        <constraint firstItem="1vB-oo-dEb" firstAttribute="top" secondItem="0Fk-RP-isJ" secondAttribute="top" id="pdG-as-ghf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="eDm-T2-PaP" secondAttribute="bottom" id="70N-DZ-pWL"/>
+                <constraint firstAttribute="trailing" secondItem="0Fk-RP-isJ" secondAttribute="trailing" id="7am-63-FFL"/>
+                <constraint firstItem="11A-G2-TiR" firstAttribute="leading" secondItem="RIo-oA-UlB" secondAttribute="leading" id="Hag-Zn-dl7"/>
+                <constraint firstItem="eDm-T2-PaP" firstAttribute="top" secondItem="11A-G2-TiR" secondAttribute="bottom" constant="8" id="IGI-eh-gab"/>
+                <constraint firstItem="eDm-T2-PaP" firstAttribute="leading" secondItem="RIo-oA-UlB" secondAttribute="leading" id="Qea-4I-4Xw"/>
+                <constraint firstAttribute="trailing" secondItem="eDm-T2-PaP" secondAttribute="trailing" id="ShC-GO-2Oo"/>
+                <constraint firstItem="0Fk-RP-isJ" firstAttribute="centerY" secondItem="RIo-oA-UlB" secondAttribute="centerY" id="TFH-wO-SOf"/>
+                <constraint firstAttribute="trailing" secondItem="11A-G2-TiR" secondAttribute="trailing" id="UB3-0n-Crb"/>
+                <constraint firstItem="11A-G2-TiR" firstAttribute="top" secondItem="RIo-oA-UlB" secondAttribute="top" constant="8" id="YT4-iS-kc1"/>
+                <constraint firstItem="11A-G2-TiR" firstAttribute="centerX" secondItem="RIo-oA-UlB" secondAttribute="centerX" id="aou-hJ-XuK"/>
+                <constraint firstItem="0Fk-RP-isJ" firstAttribute="centerX" secondItem="RIo-oA-UlB" secondAttribute="centerX" id="dhh-yc-Lq6"/>
+                <constraint firstItem="0Fk-RP-isJ" firstAttribute="top" secondItem="RIo-oA-UlB" secondAttribute="top" id="nVq-SX-VKS"/>
+                <constraint firstAttribute="bottom" secondItem="0Fk-RP-isJ" secondAttribute="bottom" id="roC-bq-LYn"/>
+                <constraint firstItem="eDm-T2-PaP" firstAttribute="top" secondItem="11A-G2-TiR" secondAttribute="bottom" constant="8" id="s6c-M0-Vjv"/>
+                <constraint firstItem="0Fk-RP-isJ" firstAttribute="leading" secondItem="RIo-oA-UlB" secondAttribute="leading" id="vxN-I9-8E4"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="18" y="35"/>
+        </view>
+    </objects>
+</document>
